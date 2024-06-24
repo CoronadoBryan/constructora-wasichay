@@ -23,7 +23,7 @@ const NotFound = () => {
                     <span className="not-found__icon">
                         <i className="far fa-frown text-body"></i>
                     </span>
-                    <h1 className='mt-4 mb-5'>404 Page Not Found</h1>   
+                    <h1 className='mt-4 mb-5'>ERROR 404 no existe esta pagina en wasichay</h1>   
                     <Button 
                         btnLink="/" 
                         btnClass="btn-main" 

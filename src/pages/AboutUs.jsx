@@ -20,7 +20,7 @@ const AboutUs = () => {
                 headerMenusClass="mx-auto"
                 btnClass="btn btn-outline-main btn-outline-main-dark d-lg-block d-none"
                 btnLink="/add-new-listing"
-                btnText="Add Listing"
+                btnText="CONTACTAR"
                 spanClass="icon-right text-gradient" 
                 showHeaderBtn={true}
                 showOffCanvasBtn={false}

@@ -84,22 +84,12 @@ export const topHeaderInfos = [
 // Header Nav Menu
 export const navMenus = [
     {
-      text: "Home",
-      path: "#",
-      submenus: [
-        {
-            text: "Home One",
-            path: "/",
-        },
-        {
-            text: "Home Two",
-            path: "/home-two",
-        },
-        {
-            text: "Home Three",
-            path: "/home-three",
-        },
-      ],
+        text: "Inicio ",
+        path: "/",
+    },
+    {
+        text: "Nosotros",
+        path: "/about-us",
     },
     {
       text: "Pages",
@@ -109,42 +99,22 @@ export const navMenus = [
             text: "Property",
             path: "/property",
         },
-        {
-            text: "Property Sidebar",
-            path: "/property-sidebar",
-        },
-        {
-            text: "Add New Listing",
-            path: "/add-new-listing",
-        },
+        // {
+        //     text: "Property Sidebar",
+        //     path: "/property-sidebar",
+        // },
+        // {
+        //     text: "Add New Listing",
+        //     path: "/add-new-listing",
+        // },
         {
             text: "Map Location",
             path: "/map-location",
         },
         {
-            text: "About Us",
-            path: "/about-us",
-        },
-        {
             text: "Faq",
             path: "/faq",
         },
-        {
-            text: "Cart",
-            path: "/cart",
-        },
-        {
-            text: "Checkout",
-            path: "/checkout",
-        },
-        {
-            text: "Login",
-            path: "/login",
-        },
-        {
-            text: "Account",
-            path: "/account",
-        }
       ],
     },
     {
