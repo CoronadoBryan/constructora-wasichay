@@ -34,7 +34,7 @@ const BlogDetails = () => {
 
             {/* BreadCrumb */}
             <Breadcrumb 
-                pageTitle="Blog Details"
+                pageTitle="Blog LUPITA"
                 pageName={location.state.title}
             />
 
