@@ -1,13 +1,13 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-import LogoWhiteImage from '../../public/assets/images/logo/white-logo.png';
+import LogoWhiteImage from '../../public/assets/images/logo/logo-wasichay.png';
 
 const LogoWhite = () => {
     return (
         <>
             <Link to="/" className="mobile-menu__logo">
-                <img src={LogoWhiteImage} alt="Logo"/>
+                <img src={LogoWhiteImage} style={{ width: '120px', height: '50px' }} alt="Logo"/>
             </Link>   
         </>
     );

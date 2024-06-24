@@ -4532,6 +4532,7 @@ button.slick-next {
         max-width: 630px;
         max-width: 50%;
         top: 0;
+       
         right: 0;
         z-index: -1;
     }
@@ -5758,6 +5759,7 @@ button.slick-next {
     padding: clamp(1.5rem, -3.901rem + 11.252vw, 5.9375rem) clamp(1.5rem, -2.76rem + 8.875vw, 5rem);
     border: 1px solid var(--border-color);
     border-radius: 5px;
+  
 }
 
 .cta-content {
@@ -8709,3 +8711,25 @@ p.account-alert:last-child {
     }
 }
 /*# sourceMappingURL=main.css.map */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -11,9 +11,9 @@ const PropertyTypeThree = () => {
 
                     <SectionHeading
                         headingClass="style-left"  
-                        subtitle="Property Type"
+                        subtitle="MISION | VISION | VALORES"
                         subtitleClass="bg-white" 
-                        title="Investing in real estate made it lot easy" 
+                        title="Nuestra Empresa" 
                         renderDesc={false}
                         desc="Real estate is a lucrative industry that involves the buying selling and renting of properties. It encompasses residential commercial and industrial properties Real estate agents play a crucial role in facilitating real estate"
                         renderButton={false}

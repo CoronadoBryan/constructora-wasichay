@@ -118,7 +118,7 @@ export const navMenus = [
       ],
     },
     {
-      text: "Project",
+      text: "Proyectos",
       path: "/project",
     },
     {
@@ -126,7 +126,7 @@ export const navMenus = [
       path: "/blog"
     },
     {
-      text: "Contact",
+      text: "Contacto",
       path: "/contact",
     },
 ]

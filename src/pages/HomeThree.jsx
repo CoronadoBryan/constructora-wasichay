@@ -49,28 +49,30 @@ const HomeThree = () => {
                 <AboutThree/>
 
                 {/* Property Type Three */}
-                <PropertyTypeThree/>
+                {/* <PropertyTypeThree/> */}
 
-                {/* Property Two */}
-                <PropertyTwo/>
+                {/* Property Two
+                <PropertyTwo/> */}
 
-                {/* Message Three */}
-                <MessageThree/>
+               
 
-                {/* Newsletter */}
-                <Newsletter/>
+                {/* Newsletter
+                <Newsletter/> */}
 
                 {/* Testimonial Three */}
                 <TestimonialThree/>
 
+                 {/* Message Three */}
+                 <MessageThree/>
+
                 {/* Counter Three */}
-                <CounterThree/>
+                {/* <CounterThree/> */}
 
                 {/* Faq */}
-                <Faq/>
+                {/* <Faq/> */}
 
                 {/* Blog Three */}
-                <BlogThree/>
+                {/* <BlogThree/> */}
 
                 {/* Footer */}
                 <Footer/>

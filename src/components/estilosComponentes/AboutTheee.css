@@ -1,0 +1,11 @@
+/* Estilo por defecto para pantallas grandes */
+.imagen-nosotros {
+    height: 550px;
+}
+
+/* Media query para pantallas de 768px o menos */
+@media (max-width: 768px) {
+    .imagen-nosotros {
+        height: 500px ; /* Altura más pequeña para dispositivos móviles */
+    }
+}

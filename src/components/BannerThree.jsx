@@ -1,5 +1,4 @@
 import React from 'react';
-import TabFilter from '../common/TabFilter';
 import { bannerThreeContent } from '../data/HomeThreeData/HomeThreeData';
 
 const BannerThree = () => {
@@ -18,7 +17,7 @@ const BannerThree = () => {
                                         <span className="banner-content__subtitle text-uppercase font-14 text-gradient">{bannerThreeContent.subtitle}</span>
                                         <h1 className="banner-content__title">{bannerThreeContent.title}
                                             <span className="position-relative d-inline">
-                                            {bannerThreeContent.shapedTitle}
+                                          
                                                 <img src="assets/images/shapes/curve-shape.png" alt="" className="curve-shape"/> 
                                             </span> 
                                         </h1>
@@ -27,20 +26,14 @@ const BannerThree = () => {
                                 </div>
                             </div>
                             <div className="col-lg-6 order-lg-0 order-1">
-                                <div className="banner-thumb">
-                                    <img src={bannerThreeContent.thumb} alt=""/>
+                                <div className="banner-thumb"  >
+                                    <img src={bannerThreeContent.thumb} alt="" style={{marginTop:"40px"}}/>
                                 </div>  
                             </div>
-                            
-                            <div className="col-12">
-                                <TabFilter colClass="col-lg-3 col-sm-6 col-xs-6"/>
-                            </div>
-                            
                         </div>
                     </div>
                 </div>
             </section>
-            {/* ============================ Banner Three End =============================    */}
         </>
     );
 };

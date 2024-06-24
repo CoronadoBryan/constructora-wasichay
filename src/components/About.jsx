@@ -52,15 +52,7 @@ const About = () => {
                                         <p className="about-box__desc font-13">{aboutContent.desc}</p>
                                     </div>
                                 </div>
-                                <div className="about-button">
-                                    <Button 
-                                        btnLink="/about-us" 
-                                        btnClass="btn-main" 
-                                        btnText="Learn More" 
-                                        spanClass="icon-right" 
-                                        iconClass="fas fa-arrow-right" 
-                                    />
-                                </div>
+                               
                             </div>
                         </div>
                     </div>

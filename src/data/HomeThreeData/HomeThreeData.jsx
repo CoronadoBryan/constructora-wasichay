@@ -1,12 +1,12 @@
 import React from 'react'; 
 
 // Banner Three
-import BannerThreeThumb from '../../../public/assets/images/thumbs/banner-three.png'
+import BannerThreeThumb from '../../../public/assets/images/imagenes-inicio/imagen-inicio.png'
 export const bannerThreeContent = {
-    subtitle: 'FINTECH FUSION',
-    title: 'Your trusted real estate',
-    shapedTitle: 'partner',
-    desc: 'Unlock the Power of Real Estate Making Your Real Estate Dreams a Reality Real Estate here Unlock the Power of Real Estate',
+    subtitle: 'Servicios de Topografía Profesionales',
+    title: 'La Mejor Solución Para Tus Necesidades de Topografía',
+   
+    desc: 'Ofrecemos servicios de topografía de alta calidad que se ajustan a tu presupuesto. Con los mejores paquetes de servicios, hacemos realidad tus proyectos con precisión y eficiencia.',
     thumb: BannerThreeThumb
 }
 
@@ -15,72 +15,72 @@ export const bannerThreeContent = {
 export const aboutCheckLists = [
     {
         icon: <i className="fas fa-check"></i>,
-        text: 'Dream Property Solutions'
+        text: 'Gestión de Proyectos de Topografía'
     },
     {
         icon: <i className="fas fa-check"></i>,
-        text: ' Prestige Property Management'
+        text: 'Expertos en Topografía'
     },
     {
         icon: <i className="fas fa-check"></i>,
-        text: 'Secure Property Partners'
+        text: 'Garantía de Satisfacción 100%'
     },
     {
         icon: <i className="fas fa-check"></i>,
-        text: 'Global Real Estate Investments'
+        text: 'Compromiso con los Clientes'
     },
 ]
 
 
 // Property Type Three
-import propertyThreeTypeIcon1 from '../../../public/assets/images/icons/ppty-type-icon1.svg'
-import propertyThreeTypeIcon2 from '../../../public/assets/images/icons/ppty-type-icon2.svg'
-import propertyThreeTypeIcon3 from '../../../public/assets/images/icons/ppty-type-icon3.svg'
+// import propertyThreeTypeIcon1 from '../../../public/assets/images/icons/ppty-type-icon1.svg'
+// import propertyThreeTypeIcon2 from '../../../public/assets/images/icons/ppty-type-icon2.svg'
+// import propertyThreeTypeIcon3 from '../../../public/assets/images/icons/ppty-type-icon3.svg'
 import propertyThreeTypeIcon4 from '../../../public/assets/images/icons/ppty-type-icon4.svg'
 import propertyThreeTypeIcon5 from '../../../public/assets/images/icons/ppty-type-icon5.svg'
 import propertyThreeTypeIcon6 from '../../../public/assets/images/icons/ppty-type-icon6.svg'
 export const propertyThreeTypes = [ 
-    {
-        icon: propertyThreeTypeIcon1,
-        title: 'Prestige Management',
-        desc: 'Real estate is a lucrative ind involves the buying selling and reproperties. It encompa',
-        btnText: 'MORE ABOUT ',
-        btnLink: '/property'
-    },
-    {
-        icon: propertyThreeTypeIcon2,
-        title: 'Prime Investments',
-        desc: 'Real estate is a lucrative ind involves the buying selling and reproperties. It encompa',
-        btnText: 'MORE ABOUT ',
-        btnLink: '/property'
-    },
-    {
-        icon: propertyThreeTypeIcon3,
-        title: 'Smart House Agency',
-        desc: 'Real estate is a lucrative ind involves the buying selling and reproperties. It encompa',
-        btnText: 'MORE ABOUT ',
-        btnLink: '/property'
-    },
+    // {
+    //     icon: propertyThreeTypeIcon1,
+    //     title: 'Prestige Management',
+    //     desc: 'Real estate is a lucrative ind involves the buying selling and reproperties. It encompa',
+    //     btnText: 'MORE ABOUT ',
+    //     btnLink: '/property'
+    // },
+    // {
+    //     icon: propertyThreeTypeIcon2,
+    //     title: 'Prime Investments',
+    //     desc: 'Real estate is a lucrative ind involves the buying selling and reproperties. It encompa',
+    //     btnText: 'MORE ABOUT ',
+    //     btnLink: '/property'
+    // },
+    // {
+    //     icon: propertyThreeTypeIcon3,
+    //     title: 'Smart House Agency',
+    //     desc: 'Real estate is a lucrative ind involves the buying selling and reproperties. It encompa',
+    //     btnText: 'MORE ABOUT ',
+    //     btnLink: '/property'
+    // },
     {
         icon: propertyThreeTypeIcon4,
-        title: 'Reliable Rentals',
-        desc: 'Real estate is a lucrative ind involves the buying selling and reproperties. It encompa',
-        btnText: 'MORE ABOUT ',
-        btnLink: '/property'
+        title: 'Nuestra Misión',
+        desc: 'Ofrecer servicios de topografía de alta calidad que se ajustan a tu presupuesto. Con los mejores paquetes de servicios, hacemos realidad tus proyectos con precisión y eficiencia.',
+        btnText: 'más info ',
+        btnLink: '/service'
     },
     {
         icon: propertyThreeTypeIcon5,
-        title: 'Golden Key Properties',
-        desc: 'Real estate is a lucrative ind involves the buying selling and reproperties. It encompa',
-        btnText: 'MORE ABOUT ',
-        btnLink: '/property'
+        title: 'Nuestra Visión',
+        desc: 'Ser la empresa líder en servicios de topografía en la región, ofreciendo soluciones innovadoras y de calidad para nuestros clientes y sus proyectos de topografía.',
+        btnText: 'más info ',
+        btnLink: '/service'
     },
     {
         icon: propertyThreeTypeIcon6,
-        title: 'Swift Home Sales',
-        desc: 'Real estate is a lucrative ind involves the buying selling and reproperties. It encompa',
-        btnText: 'MORE ABOUT ',
-        btnLink: '/property'
+        title: 'Valores Corporativos',
+        desc: 'Compromiso, calidad, innovación, eficiencia y responsabilidad son los valores que nos definen y que guían nuestro trabajo diario en Topografía Profesional.',
+        btnText: 'más info ',   
+        btnLink: '/service'
     },
 ]
 

@@ -1,4 +1,4 @@
-import React, { useContext, useEffect, useState } from 'react';
+import  { useContext, useEffect, useState } from 'react';
 import NavMenu from './NavMenu';
 import Logo from './Logo';
 import { MobileMenuContext } from '../contextApi/MobileMenuContext';

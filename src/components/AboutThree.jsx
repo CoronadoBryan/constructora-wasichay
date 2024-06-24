@@ -1,10 +1,11 @@
-import React from 'react';
 import SectionHeading from '../common/SectionHeading';
 import Button from '../common/Button';
 import { aboutCheckLists } from '../data/HomeThreeData/HomeThreeData';
 import CountUp from 'react-countup';
+import nosotros from '../../public/assets/images/imagenes-inicio/imagen-nosotros.jpg';
+import './estilosComponentes/AboutTheee.css';
 
-import AboutThreeThumb from '../../public/assets/images/thumbs/about-three-img.png';
+
 
 const AboutThree = () => {
     return (
@@ -15,12 +16,12 @@ const AboutThree = () => {
                         <div className="col-lg-6">
                             <div className="about-three-thumb">
                                 <div className="about-three-thumb__inner">
-                                    <img src={AboutThreeThumb} alt=""/>
+                                    <img className='imagen-nosotros' style={{height:"500px"}} src={nosotros} alt=""/>
                                     <div className="project-content">
                                         <div className="project-content__inner">
                                             <h2 className="project-content__number">
-                                                <CountUp end={parseInt(10)} duration={6} delay={0.2} />k                                            </h2>
-                                            <span className="project-content__text font-12">Complete project</span>
+                                                <CountUp end={parseInt(10)} duration={6} delay={0.2} />                                           </h2>
+                                            <span className="project-content__text font-12">proyectos completados</span>
                                         </div>
                                     </div>
                                 </div>
@@ -33,9 +34,9 @@ const AboutThree = () => {
                                     headingClass="style-left"  
                                     subtitle="About Us"
                                     subtitleClass="bg-gray-100" 
-                                    title="Unlocking the door to your a the new home" 
+                                    title="Realizamos la Mejor Topografía Con Gran Pasión" 
                                     renderDesc={true}
-                                    desc="Real estate is a lucrative industry that involves the buying selling and renting of properties. It encompasses residential commercial and industrial properties Real estate agents play a crucial role in facilitating real estate"
+                                    desc="Ofrecemos servicios de topografía de alta calidad. Nuestro equipo de expertos está comprometido con la satisfacción del cliente y la precisión en cada proyecto."
                                     renderButton={false}
                                     buttonClass="btn-main"
                                     buttonText="View More"
@@ -53,15 +54,7 @@ const AboutThree = () => {
                                         })
                                     }
                                 </ul>
-                                <div className="about-button">
-                                    <Button
-                                        btnLink="/about-us" 
-                                        btnClass="btn btn-outline-main bg-white" 
-                                        btnText="Learn More" 
-                                        spanClass="icon-right" 
-                                        iconClass="fas fa-arrow-right" 
-                                    />
-                                </div>
+                             
                             </div>
                         </div>
                     </div>

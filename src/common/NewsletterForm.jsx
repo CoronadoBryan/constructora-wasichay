@@ -36,7 +36,7 @@ const NewsletterForm = (props) => {
                     <div className="position-relative w-100">
                         <input 
                             type="email" 
-                            placeholder="Your Email"
+                            placeholder="fadfafasd Email"
                             name='email'
                             id='email'
                             onChange={formik.handleChange}
