@@ -34,7 +34,7 @@ const HomeThree = () => {
                     headerMenusClass="ms-auto menu-right"
                     btnClass="btn btn-main  d-lg-block d-none"
                     btnLink="/add-new-listing"
-                    btnText="Contactanos"
+                    btnText="Add Listing"
                     spanClass="icon-right" 
                     showHeaderBtn={true}
                     showOffCanvasBtn={false}

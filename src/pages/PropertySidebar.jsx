@@ -3,15 +3,16 @@ import Header from '../common/Header';
 import Footer from '../common/Footer';
 import Breadcrumb from '../common/Breadcrumb';
 import Cta from '../components/Cta';
-import AboutThree from '../components/AboutThree';
-import PropertyTypeThree from '../components/PropertyTypeThree';
-import Team from '../components/Team';
+import PropertySidebarSection from '../components/PropertySidebarSection';
 import PageTitle from '../common/PageTitle';
 
-const AboutUs = () => {
+const Property = () => {
     return (
         <>
-            <PageTitle title="CityScape - About Us" />
+        <PageTitle title="CityScape - Property With Sidebar" />
+
+        <main className="body-bg">
+            
             {/* Header */}
             <Header 
                 headerClass="dark-header has-border" 
@@ -20,7 +21,7 @@ const AboutUs = () => {
                 headerMenusClass="mx-auto"
                 btnClass="btn btn-outline-main btn-outline-main-dark d-lg-block d-none"
                 btnLink="/add-new-listing"
-                btnText="CONTACTAR"
+                btnText="Add Listing"
                 spanClass="icon-right text-gradient" 
                 showHeaderBtn={true}
                 showOffCanvasBtn={false}
@@ -30,23 +31,22 @@ const AboutUs = () => {
 
             {/* BreadCrumb */}
             <Breadcrumb 
-                pageTitle="Nosotros"
-                pageName="nosotros"
+                pageTitle="Property Sidebar"
+                pageName="Property Sidebar"
             />
 
-            <AboutThree/>    
-
-            <Team/>
-
-            <PropertyTypeThree/> 
+            {/* Property Sidebar Section */}
+            <PropertySidebarSection/>
 
             {/* Cta */}
             <Cta ctaClass=""/>
 
             {/* Footer */}
             <Footer/>
+
+        </main>   
         </>
     );
 };
 
-export default AboutUs;
+export default Property;

@@ -31,7 +31,7 @@ const Property = () => {
 
             {/* BreadCrumb */}
             <Breadcrumb 
-                pageTitle="Cursos"
+                pageTitle="Property"
                 pageName="Property"
             />
 
