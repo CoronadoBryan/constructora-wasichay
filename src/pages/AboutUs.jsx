@@ -6,11 +6,15 @@ import AboutThree from "../components/AboutThree";
 import PropertyTypeThree from "../components/PropertyTypeThree";
 import Team from "../components/Team";
 import PageTitle from "../common/PageTitle";
+import OffCanvas from "../common/OffCanvas";
+import MobileMenu from "../common/MobileMenu";
 
 const AboutUs = () => {
   return (
     <>
       <PageTitle title="CityScape - About Us" />
+      <OffCanvas/>
+      <MobileMenu/>
       {/* Header */}
       <Header
         headerClass="dark-header has-border"
