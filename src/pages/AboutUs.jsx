@@ -4,10 +4,11 @@ import Breadcrumb from "../common/Breadcrumb";
 import Cta from "../components/Cta";
 import AboutThree from "../components/AboutThree";
 import PropertyTypeThree from "../components/PropertyTypeThree";
-import Team from "../components/Team";
+import TestimonialThree from '../components/Testimonial'
 import PageTitle from "../common/PageTitle";
 import OffCanvas from "../common/OffCanvas";
 import MobileMenu from "../common/MobileMenu";
+import Faq from "../components/Faq";
 
 const AboutUs = () => {
   return (
@@ -30,11 +31,14 @@ const AboutUs = () => {
         offCanvasBtnClass=""
         showContactNumber={false}
       />
-      <Breadcrumb pageTitle="Nosotros" pageName="nosotros" />
+      <Breadcrumb pageTitle="Nosotros" pageName="Nosotros" />
       <AboutThree />
       <Cta />
+      <TestimonialThree />
       <PropertyTypeThree />
-      <Team />
+    
+        {/* Faq */}
+                <Faq/> 
       <Footer />
     </>
   );

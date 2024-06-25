@@ -53,7 +53,7 @@ const ContactUsSection = () => {
                             <form ref={form} onSubmit={sendEmail} className="contact-form__form">
                                 <div className="row gy-4">
                                     <div className="col-sm-6 col-xs-6">
-                                        <input type="text" className="common-input" name='user_name' placeholder="Your Name"/>
+                                        <input type="text" className="common-input" name='user_name' placeholder="Your fasd"/>
                                     </div>
                                     <div className="col-sm-6 col-xs-6">
                                         <input type="email" className="common-input" name='user_email' placeholder="Your E-mail"/>

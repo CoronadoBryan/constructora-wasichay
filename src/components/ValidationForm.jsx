@@ -60,13 +60,13 @@ const ValidationForm = (props) => {
                     <div className={props.colClass}>
                         {
                             props.renderLabel && (
-                                <label htmlFor="name" className={`form-label ${props.labelClass}`}>Your Name</label>
+                                <label htmlFor="name" className={`form-label ${props.labelClass}`}>Tu nombre</label>
                             )
                         }
                         <div className="position-relative">
                             <input 
                                 type="text" 
-                                placeholder="Name"
+                                placeholder="Tu nombre"
                                 name='name'
                                 id='name'
                                 onChange={formik.handleChange}
@@ -84,13 +84,13 @@ const ValidationForm = (props) => {
                     <div className={props.colClass}>
                         {
                             props.renderLabel && (
-                                <label htmlFor="phone" className={`form-label ${props.labelClass}`}>Your Phone</label>
+                                <label htmlFor="phone" className={`form-label ${props.labelClass}`}>Tu teléfono</label>
                             )
                         }
                         <div className="position-relative">
                             <input 
                                 type="tel"  
-                                placeholder="Your Phone"
+                                placeholder="Tu teléfono"
                                 name='phone'
                                 id='phone'
                                 onChange={formik.handleChange}
@@ -108,13 +108,13 @@ const ValidationForm = (props) => {
                     <div className={props.colClass}>
                         {
                             props.renderLabel && (
-                                <label htmlFor="email" className={`form-label ${props.labelClass}`}>Your Email</label>
+                                <label htmlFor="email" className={`form-label ${props.labelClass}`}>Tu correo electrónico</label>
                             )
                         }
                         <div className="position-relative">
                             <input 
                                 type="email" 
-                                placeholder="Your Email"
+                                placeholder="Tu correo electrónico"
                                 name='email'
                                 id='email'
                                 onChange={formik.handleChange}
@@ -132,13 +132,13 @@ const ValidationForm = (props) => {
                     <div className={props.colClass}>
                         {
                             props.renderLabel && (
-                                <label htmlFor="address" className={`form-label ${props.labelClass}`}>Your Address</label>
+                                <label htmlFor="address" className={`form-label ${props.labelClass}`}>Tu dirección</label>
                             )
                         }
                         <div className="position-relative">
                             <input 
                                 type="text" 
-                                placeholder="Your Address"
+                                placeholder="Tu dirección"
                                 name='address'
                                 id='address'
                                 onChange={formik.handleChange}
@@ -156,12 +156,12 @@ const ValidationForm = (props) => {
                     <div className="col-lg-12">
                         {
                             props.renderLabel && (
-                                <label htmlFor="message" className={`form-label ${props.labelClass}`}>Your Message</label>
+                                <label htmlFor="message" className={`form-label ${props.labelClass}`}>Tu mensaje</label>
                             )
                         }
                         <div className="position-relative">
                             <textarea 
-                                placeholder="Write Message.."
+                                placeholder="Escríbenos un mensaje ..."
                                 name='message'
                                 id='message'
                                 onChange={formik.handleChange}
@@ -178,7 +178,7 @@ const ValidationForm = (props) => {
                     </div>
 
                     <div className="col-lg-12">
-                        <button type="submit" className="btn btn-main w-100"> Send Message </button>
+                        <button type="submit" className="btn btn-main w-100"> Enviar mensaje </button>
                     </div>
                 </div>
             </form>   

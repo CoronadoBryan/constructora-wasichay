@@ -109,9 +109,9 @@ export const propertyTwoTabs = [
 import messageThreeIcon from '../../../public/assets/images/icons/customer-service.svg'; 
 export const messageThreeContents = {
     icon: messageThreeIcon,
-    text: 'Need help?',
-    number: '(307) 555-0133',
-    desc: 'Real estate is a lucrative ind involves the selling and a reproperties. It encompasses residential'
+    text: 'ayuda 24/7',
+    number: '(+51) 901 064 562',
+    desc: 'Estamos disponibles las 24 horas del día, los 7 días de la semana para ayudarte con cualquier pregunta o inquietud que puedas tener. No dudes en contactarnos.'
 }
 
 
@@ -127,7 +127,7 @@ export const testimonialThreeContents = [
     },
     {
         image: userThumb2,
-        name: 'John Doe',
+        name: 'dssda Doe',
         designation: 'Money Investments',
         desc: 'Real estate is a lucrativ ind involves the buying selling and Real estate a is a lucrative indinvolves buyingrep pertiesen cos residentialreproperties. It encompasses residential Real estate a is a lucrative',
     },
@@ -161,34 +161,61 @@ export const counterThreeContents = [
         text: 'Award winning'
     }
 ]
+// datos de los contadores de inicio
+import icono1 from '../../../public/assets/images/icons/counter-icon1.svg'; 
+import icono2 from '../../../public/assets/images/icons/counter-icon2.svg'; 
+import icono3 from '../../../public/assets/images/icons/counter-icon3.svg'; 
+import icono4 from '../../../public/assets/images/icons/counter-icon4.svg'; 
+export const DataContenedorNumeros = [ 
+    {
+        icon: icono1,
+        number: '100+',
+        text: 'clientes'
+    },
+    {
+        icon: icono2,
+        number: '200+',
+        text: 'Proyectos acabados'
+    },
+    {
+        icon: icono3,
+        number: '20',
+        text: 'empleados'
+    },
+    {
+        icon: icono4,
+        number: '2',
+        text: 'sedes'
+    }
+]
 
 
 // Faq Data
 export const faqs = [
     {
         id: 1,
-        btnText: 'Your satisfaction is our top priority?',
-        bodyText: "Lorem Ipsum is simply dummy text the printing and typese Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
+        btnText: '¿Qué es un servicio de topografía?',
+        bodyText: "La topografía es la ciencia que estudia el conjunto de principios y procedimientos que tienen por objeto la representación gráfica de la superficie de la tierra, con sus formas y detalles; tanto naturales como artificiales."
     },
     {
         id: 2,
-        btnText: 'How do I know if my company?',
-        bodyText: "Lorem Ipsum is simply dummy text the printing and typese Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
+        btnText: '¿Por qué es importante la topografía en la construcción?',
+        bodyText: "La topografía es crucial en la construcción para asegurar la correcta ubicación y orientación de las estructuras, permitiendo la planificación eficiente del uso del terreno y asegurando que las construcciones se realicen según el diseño."
     },
     {
         id: 3,
-        btnText: 'What kind of services do Real estate?',
-        bodyText: "Lorem Ipsum is simply dummy text the printing and typese Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
+        btnText: '¿Qué tipos de servicios de topografía ofrecen?',
+        bodyText: "Ofrecemos una amplia gama de servicios de topografía, incluyendo levantamientos topográficos, batimetrías, levantamientos con drones, replanteos, subdivisiones de terreno, y más."
     },
     {
         id: 4,
-        btnText: 'How long does a typical Real estate?',
-        bodyText: "Lorem Ipsum is simply dummy text the printing and typese Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
+        btnText: '¿Cuánto tiempo toma realizar un levantamiento topográfico?',
+        bodyText: "El tiempo necesario para realizar un levantamiento topográfico puede variar significativamente dependiendo del tamaño y complejidad del terreno, pero generalmente se completa en unos pocos días."
     },
     {
         id: 5,
-        btnText: 'How much does business Real estate?',
-        bodyText: "Lorem Ipsum is simply dummy text the printing and typese Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
+        btnText: '¿Cómo puedo solicitar un servicio de topografía?',
+        bodyText: "Puede solicitar un servicio de topografía contactándonos directamente a través de nuestro sitio web, por teléfono, o visitando nuestra oficina. Estaremos encantados de discutir sus necesidades específicas y proporcionar un presupuesto."
     }
 ]
 

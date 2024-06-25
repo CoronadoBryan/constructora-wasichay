@@ -14,11 +14,11 @@ const MessageThree = () => {
 
                                 <SectionHeading
                                     headingClass="section-heading style-left style-flex mb-0"  
-                                    subtitle="Get a quote"
+                                    subtitle="contactanos"
                                     subtitleClass="" 
-                                    title="They chose perfect the property" 
+                                    title="Siempre estamos aquí para ayudarte" 
                                     renderDesc={false}
-                                    desc="Real estate is a lucrative ind involves the selling and a reproperties. It encompasses residential"
+                                    desc="te ayudaremos en todo lo que necesites, no dudes en contactarnos."
                                     renderButton={false}
                                     renderBesideDesc={true}
                                     buttonClass="btn-main"

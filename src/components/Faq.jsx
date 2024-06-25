@@ -1,4 +1,3 @@
-import React from 'react';
 import SectionHeading from '../common/SectionHeading';
 import FaqAccordion from '../common/FaqAccordion';
 
@@ -12,9 +11,9 @@ const Faq = () => {
 
                             <SectionHeading
                                 headingClass="section-heading style-left"  
-                                subtitle="Ask question"
+                                subtitle=""
                                 subtitleClass="" 
-                                title="Let us find the perfect property for you" 
+                                title="Preguntas más Frecuentes" 
                                 renderDesc={false}
                                 desc="Real estate is a lucrative ind involves the buying selling and reproperties. It Real estate is a lucrative ind involves. Real estate is a lucrative"
                                 renderButton={false}
@@ -28,7 +27,7 @@ const Faq = () => {
                         </div>
                         <div className="col-lg-6  d-lg-block d-none">
                             <div className="faq-thumb">
-                                <img src="assets/images/thumbs/faq-img.png" alt="Image"/>
+                                <img src="https://i.ibb.co/zbQr2yp/istockphoto-850824032-612x612.jpg" alt="Image"/>
                             </div>
                         </div>
                     </div>

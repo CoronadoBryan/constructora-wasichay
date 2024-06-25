@@ -710,19 +710,19 @@ import teamImg3 from "../../../public/assets/images/thumbs/team3.png";
 export const teams = [
   {
     thumb: teamImg1,
-    name: "Annette Black",
+    name: "Siempre va más allá para garantizar la satisfacción del cliente.",
     designation:
-      "Siempre va más allá para garantizar la satisfacción del cliente.",
+      "Annette Black",
   },
   {
     thumb: teamImg2,
-    name: "Savannah Nguyen",
-    designation: "Un liderazgo excepcional con un enfoque en resultados.",
+    name: "Un liderazgo excepcional con un enfoque en resultados.",
+    designation: "Savannah Nguyen",
   },
   {
     thumb: teamImg3,
-    name: "Bessie Cooper",
-    designation: "Innovadora y siempre buscando mejorar procesos.",
+    name: "Innovadora y siempre buscando mejorar procesos.",
+    designation: "Bessie Cooper",
   },
 ];
 

@@ -8,6 +8,9 @@ import AboutThree from './../components/AboutThree';
 import MessageThree from '../components/MessageThree';
 import TestimonialThree from '../components/TestimonialThree';
 import PageTitle from '../common/PageTitle';
+import PropertyTypeThree from '../components/PropertyTypeThree';
+import ContenedorNumeros  from '../components/ContenedorNumeros';
+import VideoPopup  from '../components/VideoPopup';
 
 const HomeThree = () => {
     return (
@@ -37,23 +40,26 @@ const HomeThree = () => {
 
                 {/* Banner Three */}
                 <BannerThree/>
+                <ContenedorNumeros/>
+
 
                 {/* About Three */}
                 <AboutThree/>
+                <VideoPopup/>
 
                 {/* Property Type Three */}
                 {/* <PropertyTypeThree/> */}
 
-                {/* Property Two
-                <PropertyTwo/> */}
+                 {/* Property Two */}
+                {/* <PropertyTwo/>  */}
 
                
 
-                {/* Newsletter
-                <Newsletter/> */}
+                 {/* Newsletter */}
+                {/* <Newsletter/>  */}
 
                 {/* Testimonial Three */}
-                <TestimonialThree/>
+                {/* <TestimonialThree/> */}
 
                  {/* Message Three */}
                  <MessageThree/>
@@ -63,6 +69,8 @@ const HomeThree = () => {
 
                 {/* Faq */}
                 {/* <Faq/> */}
+
+            
 
                 {/* Blog Three */}
                 {/* <BlogThree/> */}

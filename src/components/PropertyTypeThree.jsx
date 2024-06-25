@@ -11,7 +11,7 @@ const PropertyTypeThree = () => {
 
                     <SectionHeading
                         headingClass="style-left"  
-                        subtitle="MISION | VISION | VALORES"
+                        subtitle="MISIÓN | VISIÓN | VALORES"
                         subtitleClass="bg-white" 
                         title="Nuestra Empresa" 
                         renderDesc={false}

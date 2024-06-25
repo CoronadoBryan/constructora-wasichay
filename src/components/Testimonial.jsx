@@ -32,11 +32,10 @@ const Testimonial = () => {
 
                     <SectionHeading
                         headingClass="section-heading style-left style-flex"  
-                        subtitle="Client Testimonial"
-                        subtitleClass="" 
-                        title="Optimum Homes & Properties property for you" 
+                        subtitle="Testimonios de Clientes"
+                        title="Opiniones sobre nuestro trabajo" 
                         renderDesc={false}
-                        desc="Use receiving accounts a number a currencies and get paid like a local Use receivin accounts a number paid the most beautiful think"
+                        desc="Nuestros clientes valoran la dedicación y profesionalismo con los que abordamos cada proyecto. Aquí puedes leer algunas de sus experiencias y cómo nuestros servicios han superado sus expectativas."
                         renderButton={false}
                         renderBesideDesc={true}
                         buttonClass="btn-main"
@@ -56,14 +55,14 @@ const Testimonial = () => {
                                             })
                                         }
                                     </Slider>
-                                    <button onClick={() => slider?.current?.slickPrev()}>Prev</button>
-                                    <button onClick={() => slider?.current?.slickNext()}>Next</button>
+                                    <button onClick={() => slider?.current?.slickPrev()}></button>
+                                    <button onClick={() => slider?.current?.slickNext()}></button>
                                 </div>
                             </div>
 
                             <div className="col-lg-6">
                                 <div className="testimonial-thumb">
-                                    <img src={TestimonialThumb} alt="" className="cover-img"/>
+                                    <img src='https://i.ibb.co/3MZYz94/pixelcut-export.jpg' alt="" className="cover-img"/>
                                 </div>
                             </div>
                         </div>
