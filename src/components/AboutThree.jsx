@@ -32,7 +32,7 @@ const AboutThree = () => {
               <div className="about-content">
                 <SectionHeading
                   headingClass="style-left"
-                  subtitle="About Us"
+                  subtitle="¿A que nos dedicamos?"
                   subtitleClass="bg-gray-100"
                   title="Realizamos la Mejor Topografía Con Gran Pasión"
                   renderDesc={true}

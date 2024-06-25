@@ -1,4 +1,3 @@
-import React from 'react'; 
 
 
 // Top header Info
@@ -92,13 +91,13 @@ export const navMenus = [
         path: "/about-us",
     },
     {
-      text: "Pages",
-      path: "#",
-      submenus: [
-        {
-            text: "Property",
-            path: "/property",
-        },
+      text: "Cursos",
+      path: "/property",
+    //   submenus: [
+        // {
+        //     text: "Property",
+        //     path: "/property",
+        // },
         // {
         //     text: "Property Sidebar",
         //     path: "/property-sidebar",
@@ -107,15 +106,8 @@ export const navMenus = [
         //     text: "Add New Listing",
         //     path: "/add-new-listing",
         // },
-        {
-            text: "Map Location",
-            path: "/map-location",
-        },
-        {
-            text: "Faq",
-            path: "/faq",
-        },
-      ],
+        
+    //   ],
     },
     {
       text: "Proyectos",
@@ -128,6 +120,17 @@ export const navMenus = [
     {
       text: "Contacto",
       path: "/contact",
+      submenus:[
+        {
+            text: "Mapa de Ubicación",
+            path: "/map-location",
+        },
+        {
+            text: "Preguntas y Respuestas",
+            path: "/faq",
+        },
+
+      ]
     },
 ]
 

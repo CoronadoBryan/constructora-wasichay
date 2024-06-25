@@ -1,4 +1,3 @@
-import React from 'react';
 import Header from './../common/Header';
 import Footer from '../common/Footer';
 import MobileMenu from '../common/MobileMenu';
@@ -30,7 +29,7 @@ const HomeThree = () => {
                     headerMenusClass="ms-auto menu-right"
                     btnClass="btn btn-main  d-lg-block d-none"
                     btnLink="/add-new-listing"
-                    btnText="Add Listing"
+                    btnText="Contactar"
                     spanClass="icon-right" 
                     showHeaderBtn={true}
                     showOffCanvasBtn={false}

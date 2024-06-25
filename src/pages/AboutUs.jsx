@@ -34,7 +34,7 @@ const AboutUs = () => {
       <Breadcrumb pageTitle="Nosotros" pageName="Nosotros" />
       <AboutThree />
       <Cta />
-      <TestimonialThree />
+      {/* <TestimonialThree /> */}
       <PropertyTypeThree />
     
         {/* Faq */}
