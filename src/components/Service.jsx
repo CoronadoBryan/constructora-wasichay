@@ -1,5 +1,5 @@
 import React from 'react';
-import { services } from '../data/HomeTwoData/HomeTwoData';
+import { services } from '../data/HomeThreeData/HomeThreeData';
 import { Link } from 'react-router-dom';
 
 const Service = () => {

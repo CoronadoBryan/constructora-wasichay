@@ -51,8 +51,6 @@
     --heading-one: clamp(2rem, -0.0733rem + 6.3692vw, 4.25rem);
     --heading-two: clamp(1.75rem, 0.7133rem + 2.8846vw, 2.875rem);
     --heading-three: clamp(1.5rem, 0.3353rem + 2.1661vw, 2.5rem);
-    --heading-four: clamp(1.25rem, 0.5569rem + 1.444vw, 2rem);
-    --heading-five: clamp(1.125rem, 1.2rem + 0.722vw, 1.75rem);
     --heading-six: clamp(1rem, 0.769rem + 0.6813vw, 1.25rem);
   /* Font Size End */
   /* Color Variables Start */
@@ -1228,12 +1226,6 @@ h4 {
     font-size: var(--heading-four);
 }
 
-h5 {
-    font-size: var(--heading-five);
-    font-weight: 500;
-    line-height: 36px;
-    font-family: var(--poppins-font);
-}
 
 h6 {
     font-size: var(--heading-six);
@@ -6456,18 +6448,8 @@ button.slick-next {
     opacity: 0.2;
 }
 
-.counter-three-wrapper, .counter-five-wrapper {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    gap: 24px;
-}
 
-@media screen and (max-width: 991px) {
-    .counter-three-wrapper, .counter-five-wrapper {
-        grid-template-columns: 1fr 1fr;
-    }
-}
+
 
 .counter-three-item {
     color: hsl(var(--white)/0.7);
@@ -6888,81 +6870,7 @@ button.slick-next {
         transform: translate(-300px);
     }
 }
-/* ====================== Banner Four Css End ============================== */
-/* ========================== About Four Section Css Start ========================== */
-.about-four .about-four-thumb::before {
-    display: none;
-}
 
-.about-four .project-content {
-    right: auto;
-    left: 32px;
-}
-
-.about-four .project-content::before {
-    display: none;
-}
-
-/* ========================== About Four Section Css End ========================== */
-/* ==================== Latest Properties Four Start ========================= */
-.latest-properties-four__thumb {
-    border-radius: 15px;
-    overflow: hidden;
-}
-
-.latest-properties-four__item {
-    gap: clamp(1rem, -0.521rem + 3.17vw, 2.25rem);
-    margin-bottom: clamp(1.5rem, 0.891rem + 1.268vw, 2rem);
-}
-
-.latest-properties-four__icon {
-    width: 60px;
-    height: 60px;
-    border-radius: 50%;
-    box-shadow: 0px 4.4px 20px -1px rgba(19, 16, 34, 0.05);
-    flex-shrink: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: hsl(var(--white));
-    font-size: 20px;
-}
-
-.latest-properties-four__title {
-    margin-bottom: 12px;
-}
-
-/* ==================== Latest Properties Four End ========================= */
-/* =========================== Counter Five Start ================================ */
-.counter-five-item {
-    gap: clamp(1rem, 0.391rem + 1.268vw, 1.5rem);
-}
-
-@media screen and (max-width: 424px) {
-    .counter-five-item {
-        flex-direction: column;
-        justify-content: start;
-    }
-}
-
-.counter-five-item__icon {
-    width: clamp(4rem, 2.022rem + 4.12vw, 5.625rem);
-    height: clamp(4rem, 2.022rem + 4.12vw, 5.625rem);
-    border: 1px solid var(--border-color);
-    display: inline-flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 5px;
-    flex-shrink: 0;
-}
-
-.counter-five-item__number {
-    margin-bottom: 4px;
-    font-family: var(--poppins-font);
-}
-
-/* =========================== Counter Five End ================================ */
-/* ======================= Project page Section Css Start ====================== */
 .project-section {
     position: relative;
     z-index: 1;
@@ -7047,157 +6955,7 @@ button.slick-next {
     color: hsl(var(--main));
 }
 
-/* =================== Working Process Section Css End ========================== */
-/* ========================== Banner Five Css Start ========================= */
-.banner-five {
-    padding-top: 150px;
-    padding-bottom: 150px;
-}
 
-@media screen and (max-width: 991px) {
-    .banner-five {
-        padding-top: 110px;
-        padding-bottom: 110px;
-    }
-}
-
-@media screen and (max-width: 767px) {
-    .banner-five {
-        padding-top: 80px;
-        padding-bottom: 80px;
-    }
-}
-
-@media screen and (max-width: 575px) {
-    .banner-five {
-        padding-top: 60px;
-        padding-bottom: 60px;
-    }
-}
-
-@media (max-width: 1299px) {
-    .banner-five .banner-content__title {
-        font-size: 50px;
-    }
-}
-
-@media screen and (max-width: 767px) {
-    .banner-five .banner-content__title {
-        font-size: 2.5rem;
-    }
-}
-
-@media screen and (max-width: 575px) {
-    .banner-five .banner-content__title {
-        font-size: 2rem;
-    }
-}
-
-.banner-five__thumb {
-    position: relative;
-}
-
-@media (min-width: 992px) {
-    .banner-five__thumb {
-        position: absolute;
-        right: 0;
-        top: 0;
-        max-width: 50%;
-        height: 100%;
-        display: flex;
-        z-index: 1;
-    }
-}
-
-.banner-five__thumb::before {
-    position: absolute;
-    content: "";
-    width: 170px;
-    height: 186px;
-    background: var(--main-gradient);
-    opacity: 0.3;
-    left: 0;
-    top: 32px;
-    border-radius: 0px 0px 117px 0px;
-}
-
-@media screen and (max-width: 575px) {
-    .banner-five__thumb::before {
-        width: 120px;
-        height: 146px;
-    }
-}
-
-.banner-five__thumb img {
-    border-radius: 360px 10px 10px 10px;
-}
-
-@media (min-width: 992px) {
-    .banner-five__thumb img {
-        border-radius: 360px 0px 0px 0px;
-    }
-}
-/* ========================== Banner Five Css End ========================= */
-/* ======================= About five Css Start ========================= */
-.about-five__thumbs {
-    position: relative;
-}
-
-.about-five__thumb {
-    margin-bottom: 24px;
-    overflow: hidden;
-}
-
-.about-five__thumb:last-child {
-    margin-bottom: 0;
-}
-
-.about-five__thumb.one {
-    border-radius: 99px 5px 99px 99px;
-}
-
-.about-five__thumb.two {
-    border-radius: 5px 99px 99px 99px;
-}
-
-.about-five__thumb.three {
-    border-radius: 99px 99px 5px 5px;
-}
-
-.about-five__content {
-    border-radius: 53px 0px 53px 53px;
-    background: var(--main-gradient);
-    padding: 20px;
-    gap: 10px;
-    position: absolute;
-    left: 50%;
-    bottom: 12px;
-    transform: translateX(-50%);
-    min-width: max-content;
-}
-
-.about-five__icon {
-    width: 52px;
-    height: 52px;
-    background-color: hsl(var(--white)/0.2);
-    border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: hsl(var(--white));
-    font-size: clamp(1.125rem, 0.973rem + 0.317vw, 1.25rem);
-    flex-shrink: 0;
-}
-
-.about-five__amount {
-    font-weight: 500;
-}
-
-.about-five__text {
-    font-weight: 200;
-}
-
-/* ======================= About five Css End ========================= */
 /* ======================= Service Slider Section Css Start ======================= */
 .service-slider {
     border: 1px solid var(--gray-800);
@@ -7216,87 +6974,7 @@ button.slick-next {
     min-width: max-content;
 }
 
-/* ======================= Service Slider Section Css Ends ======================= */
-/* ====================== property Type Five Css Start =============================== */
-.property-type-five-item {
-    border-radius: 5px;
-    overflow: hidden;
-    position: relative;
-}
 
-@media (min-width: 425px) and (max-width: 575px) {
-    .property-type-five-item {
-        display: flex;
-    }
-}
-
-.property-type-five-item:hover {
-    background-color: hsl(var(--white)/0.04);
-}
-
-.property-type-five-item:hover::before {
-    width: 100%;
-}
-
-.property-type-five-item:hover .property-type-five-item__thumb img {
-    transform: scale(1.04);
-}
-
-.property-type-five-item::before {
-    position: absolute;
-    content: "";
-    width: 0%;
-    height: 3px;
-    left: 50%;
-    transform: translateX(-50%);
-    bottom: 0;
-    background: var(--main-gradient);
-    transition: 0.2s linear;
-}
-
-.property-type-five-item__thumb {
-    max-height: 320px;
-    overflow: hidden;
-}
-
-.property-type-five-item__thumb img {
-    transition: 0.2s linear;
-}
-
-.property-type-five-item__content {
-    padding: clamp(1.25rem, -0.271rem + 3.17vw, 2.5rem);
-    background-color: hsl(var(--white));
-}
-
-.property-type-five-item__date {
-    width: 70px;
-    height: 70px;
-    font-size: 28px;
-    border-radius: 5px;
-    background-color: hsl(var(--black)/0.1);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-family: var(--poppins-font);
-    font-weight: 400;
-    color: hsl(var(--heading-color));
-}
-
-@media screen and (max-width: 991px) {
-    .property-type-five-item__date {
-        width: 54px;
-        height: 54px;
-        font-size: 24px;
-    }
-}
-
-.property-type-five-item__title {
-    margin-top: clamp(1rem, -0.217rem + 2.536vw, 2rem);
-    margin-bottom: clamp(0.75rem, 0.141rem + 1.268vw, 1.25rem);
-}
-
-/* ====================== property Type Five Css End =============================== */
-/* ===================== Choose Us Css Start =========================== */
 .choose-us__thumb {
     padding: 20px 40px;
     position: relative;
@@ -8479,16 +8157,7 @@ p.account-alert:last-child {
 /* ========================== Account Page Css End ==================== */
 [dir=rtl] {
     text-align: right;
-  /* ========================= Home One RTL Css Start ============================== */
-  /* ========================= Home One RTL Css End ============================== */
-  /* ========================= Home Two RTL Css Start ============================== */
-  /* ========================= Home Two RTL Css End ============================== */
-  /* ========================= Home Three RTL Css Start ============================== */
-  /* ========================= Home Three RTL Css End ============================== */
-  /* ========================= Home Four RTL Css Start ============================== */
-  /* ========================= Home Four RTL Css End ============================== */
-  /* ========================= Home Five RTL Css Start ============================== */
-  /* ========================= Home Five RTL Css End ============================== */
+
 }
 
 [dir=rtl] .mobile-menu {
@@ -8703,14 +8372,6 @@ p.account-alert:last-child {
     margin-left: 0;
 }
 
-@media (min-width: 992px) {
-    [dir=rtl] .banner-five__thumb {
-        right: auto;
-        left: 0;
-        transform: scaleX(-1);
-    }
-}
-/*# sourceMappingURL=main.css.map */
 
 
 

@@ -732,42 +732,6 @@ export const teams = [
     },  
 ]
 
-// ============================== Team Section Data End ==============================
-
-
-
-// ====================== Faq Page Counter Four Data Start ====================
-import counterFourIcon1 from '../../../public/assets/images/icons/counter-four1.svg';
-import counterFourIcon2 from '../../../public/assets/images/icons/counter-four2.svg';
-import counterFourIcon3 from '../../../public/assets/images/icons/counter-four3.svg';
-import counterFourIcon4 from '../../../public/assets/images/icons/counter-four4.svg';
-
-export const counterFourContents = [
-    {
-        icon: counterFourIcon1,
-        number: '800+',
-        text: 'Happy Client'
-    },
-    {
-        icon: counterFourIcon2,
-        number: '440+',
-        text: ' Project done '
-    },
-    {
-        icon: counterFourIcon3,
-        number: '500k',
-        text: 'Employees'
-    },
-    {
-        icon: counterFourIcon4,
-        number: '80+',
-        text: ' Award winning '
-    },
-]
-// ====================== Faq Page Counter Four Data End ====================
-
-
-// ========================= Checkout Page Data Start =========================
 import paymentMethodImg1 from '../../../public/assets/images/thumbs/paypal.png';
 import paymentMethodImg2 from '../../../public/assets/images/thumbs/visa.png';
 

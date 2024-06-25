@@ -5,7 +5,7 @@ import Breadcrumb from '../common/Breadcrumb';
 import Cta from '../components/Cta';
 import FaqTwo from '../components/FaqTwo';
 import FaqContactUs from '../components/FaqContactUs';
-import CounterFour from '../components/CounterFour';
+import CounterThree from '../components/CounterThree';
 import PageTitle from '../common/PageTitle';
 
 const FaqPage = () => {
@@ -42,7 +42,7 @@ const FaqPage = () => {
             <FaqContactUs/>
 
             {/* Counter Four */}
-            <CounterFour/>
+            <CounterThree/>
             
             {/* Cta */}
             <Cta ctaClass=""/>
