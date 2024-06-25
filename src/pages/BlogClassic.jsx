@@ -4,12 +4,14 @@ import Breadcrumb from '../common/Breadcrumb';
 import Cta from '../components/Cta';
 import BlogClassicSection from '../components/BlogClassicSection';
 import PageTitle from '../common/PageTitle';
-
+import OffCanvas from '../common/OffCanvas';
+import MobileMenu from '../common/MobileMenu';
 const BlogClassic = () => {
     return (
         <>
         <PageTitle title="CityScape - Blog Classic" />
-
+        <OffCanvas/>
+        <MobileMenu/>
             {/* Header */}
             <Header 
                 headerClass="dark-header has-border" 

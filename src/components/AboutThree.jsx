@@ -2,10 +2,8 @@ import SectionHeading from '../common/SectionHeading';
 import Button from '../common/Button';
 import { aboutCheckLists } from '../data/HomeThreeData/HomeThreeData';
 import CountUp from 'react-countup';
-import nosotros from '../../public/assets/images/imagenes-inicio/imagen-nosotros.jpg';
+import nosotros1 from '../../public/assets/images/nosotros/nosotros1.png';
 import './estilosComponentes/AboutTheee.css';
-
-
 
 const AboutThree = () => {
     return (
@@ -16,7 +14,7 @@ const AboutThree = () => {
                         <div className="col-lg-6">
                             <div className="about-three-thumb">
                                 <div className="about-three-thumb__inner">
-                                    <img className='imagen-nosotros' style={{height:"500px"}} src={nosotros} alt=""/>
+                                    <img className='imagen-nosotros' style={{height:"500px"}} src={nosotros1} alt=""/>
                                     <div className="project-content">
                                         <div className="project-content__inner">
                                             <h2 className="project-content__number">
