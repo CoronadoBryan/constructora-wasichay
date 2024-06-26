@@ -1,11 +1,11 @@
 import Header from '../common/Header';
 import Footer from '../common/Footer';
 import Breadcrumb from '../common/Breadcrumb';
-import Cta from '../components/Cta';
+import Contact from '../components/ContactUsSection'
 import { useLocation } from 'react-router-dom';
 import BlogDetailsSection from '../components/BlogDetailsSection';
-// import { BlogDataContext } from '../contextApi/BlogDataContext';
 import PageTitle from '../common/PageTitle';
+import Faq from '../components/Faq';
 
 const BlogDetails = () => {
 
@@ -38,9 +38,12 @@ const BlogDetails = () => {
             />
 
             <BlogDetailsSection/>
+            
+            <Faq />
 
             {/* Cta */}
-            <Cta ctaClass=""/>
+            <Contact />
+            
 
             {/* Footer */}
             <Footer/>

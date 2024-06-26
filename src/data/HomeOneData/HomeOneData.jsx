@@ -86,7 +86,7 @@ export const properties = [
     price: "$450.00",
     day: "/per day",
     title: "Your journey home ownership starts here too ",
-    desc: "Real Estate is a vast industry that deals with the buying, selling, and renting of properties. It inv transactions related to residential, commercial, and industrial properties. Aliquam eros justo, posuere loborti viverra laoreet matti ullamcorper posuere viverra .Aliquam eros justo, posuere lobortis viverra laoreet augue mattis fmentum ullamcorper viverra laoreet Aliquam eros justo, posuere lobor mattis fmentum ullam",
+    desc: "Real Estate is a vast industry that deals with the buying,selling, and renting of properties. It inv transactions related to residential, commercial, and industrial properties. Aliquam eros justo, posuere loborti viverra laoreet matti ullamcorper posuere viverra .Aliquam eros justo, posuere lobortis viverra laoreet augue mattis fmentum ullamcorper viverra laoreet Aliquam eros justo, posuere lobor mattis fmentum ullam",
     locationIcon: <i className="fas fa-map-marker-alt"></i>,
     location: "66 Broklyant, New York America",
     amenities: [
@@ -452,12 +452,12 @@ export const testimonials = [
 ];
 
 // Blog Data
-import blogThumb1 from "../../../public/assets/images/thumbs/blog1.png";
-import blogThumb2 from "../../../public/assets/images/thumbs/blog2.png";
-import blogThumb3 from "../../../public/assets/images/thumbs/blog3.png";
-import blogThumb4 from "../../../public/assets/images/thumbs/property-4.png";
-import blogThumb5 from "../../../public/assets/images/thumbs/property-5.png";
-import blogThumb6 from "../../../public/assets/images/thumbs/property-6.png";
+import blogThumb1 from "../../../public/assets/images/blog/blog1.jpg";
+import blogThumb2 from "../../../public/assets/images/blog/blog2.jpg";
+import blogThumb3 from "../../../public/assets/images/blog/blog3.jpg";
+import blogThumb4 from "../../../public/assets/images/blog/blog4.jpg";
+import blogThumb5 from "../../../public/assets/images/blog/blog5.jpg";
+import blogThumb6 from "../../../public/assets/images/blog/blog6.jpg";
 
 export const blogs = [
   {
@@ -475,8 +475,8 @@ export const blogs = [
       // },
     ],
     title: "FUNCIONES DE UN TOPÓGRAFO PROFESIONAL",
-    desc: "La topografía es una ciencia que resulta fundamental para la ejecuctopografía es una ciencia que resulta fundamental para la ejecuctopografía es una ciencia que resulta fundamental para la ejecuctopografía es una ciencia que resulta fundamental para la ejecuctopografía es una ciencia que resulta fundamental para la ejecuctopografía es una ciencia que resulta fundamental para la ejecuctopografía es una ciencia que resulta fundamental para la ejecuctopografía es una ciencia que resulta fundamental para la ejecuctopografía es una ciencia que resulta fundamental para la ejecuctopografía es una ciencia que resulta fundamental para la ejecuctopografía es una ciencia que resulta fundamental para la ejecución de muchos trabajos. En campos como la construcción, ingeniería civil, edificación, urbanismo, cartografía, etc., se necesita",
-    linkText: "Leer mas",
+    desc: "La topografía es una ciencia que resulta fundamental para la ejecución de muchos trabajos. En campos como la construcción, ingeniería civil, edificación, urbanismo, cartografía, etc., se necesita el trabajo de un topógrafo, ya que estos son los profesionales capacitados para estudiar en detalle los terrenos. A través del uso de diferentes técnicas topográficas, los topógrafos pueden plasmar la realidad de un terreno en un plano. Los estudios y análisis que se hacen en el terreno se conocen como levantamiento topográfico. El trabajo del topógrafo se divide, por lo general, en dos tareas: la realización del plano del terreno y llevar al terreno lo recogido en el plano. Para el primer trabajo es necesario realizar una serie de mediciones utilizando sistemas basados en GPS o una estación total, por ejemplo. Tras obtener los datos, estos se descargan en un programa informático para proceder a la realización del estudio. El segundo trabajo consiste en la ejecución del proyecto desarrollado y se lleva a cabo por medio de replanteo inverso. Tareas que puede realizar un topógrafo profesional Teniendo en cuenta cuáles son las funciones de un topógrafo se hace necesario evidenciar qué situaciones pueden requerir los servicios de este profesional. De esta manera podrás saber en qué casos sería útil su contratación.",
+    linkText: "Leer más",
   },
 
   {
@@ -495,8 +495,8 @@ export const blogs = [
       // },
     ],
     title: "5 MEJORES HERRAMIENTAS DE UN TOPÓGRAFO",
-    desc: "La topografía se encarga del estudio de la forma y relieve de la forma de una superficie mediante los ángulos y distancias horizontales y verticales...",
-    linkText: "Leer mas",
+    desc: "La topografía se encarga del estudio de la forma y relieve de la forma de una superficie mediante los ángulos y distancias horizontales y verticales, por lo que existen herramientas de medición indispensables para emplear una mayor calidad, precisión y eficiencia de los trabajos solicitados. A continuación, detallaremos las cinco mejores herramientas en el rubro de la topografía. Este instrumento de medición ha ido evolucionando con el pasar de los años en el aspecto electrónico y óptico como parte de la topografía moderna. La estación total está integrada por un teodolito óptico; un distanciómetro óptico electrónico para una correcta medición de distancias y ángulos de manera simultánea; y una computadora capaz de realizar los cálculos necesarios y almacenarlos en una memoria interna.  La estación total es indispensable para cumplir funciones como realizar un levantamiento topográfico, representación de la realidad física de un área, y un replanteo, trazar un diseño de una obra y proyectarlo sobre una superficie. El instrumento está formado por partes indispensables y accesorios para su efectividad. Cuenta con un trípode, una base niveladora, estación total, prisma, un bastón porta prisma, una brújula, cargador y cable de descarga. Es un sistema de navegación formado por un conjunto de satélites y estaciones en tierra firme. Actualmente, se ha convertido en una herramienta indispensable en la determinación de coordenadas tridimensionales, las cuales se hallan mediante el posicionamiento de puntos sobre la superficie terrestre. Estas coordenadas son usadas por la topografía y geodesia para poder emplear una mayor precisión y exactitud en la diferencia de coordenadas entre dos o más puntos receptores. El sistema GPS constituye una herramienta básica y fundamental para realizar levantamientos topográficos y el monitoreo de ellos.",
+    linkText: "Leer más",
   },
   {
     id: 3,
@@ -513,8 +513,8 @@ export const blogs = [
       // },
     ],
     title: "IMPORTANCIA DE LOS ESTUDIOS BATIMÉTRICOS",
-    desc: "La batimetría se denomina topografía hidrográfica y se encarga de realizar el levantamiento topográfico del relieve de superficies cubiertas de agua. ¿CÓMO SE REALIZA LA...",
-    linkText: "Leer mas",
+    desc: "La batimetría se denomina topografía hidrográfica y se encarga de realizar el levantamiento topográfico del relieve de superficies cubiertas de agua. ¿CÓMO SE REALIZA LA BATIMETRÍA? Para realizar un modelo batimétrico, debemos realizar la medición del área acuático mediante la posición de los puntos muestreados. Estos puntos forman las coordenadas X, Z e Y, estas definen líneas con el valor de la profundidad, el conjunto de ellas se denominará isóbata y generará una representación cartográfica de los puntos de igual profundidad de las zonas del modelo batimétrico. En la actualidad, la tecnología ha evolucionado equipos como el GPS y los instrumentos para la determinación de la profundidad, mediante técnicas sónicas digitales las cuales se computarizan y controlan en tiempo real por un potente software que es capaz de gestionar y analizar datos. En base a ello, para poder analizar las estructuras geomórficas y geológicas de las áreas, se mide la profundidad a través del tiempo que demora el sonido en descender hasta el fondo, rebotar y regresar al dispositivo. Mediante el sonar de las ondas sonoras, se emplean sistemas GPS que informan la ubicación exacta de los puntos.",
+    linkText: "Leer más",
   },
   {
     id: 4,
@@ -530,9 +530,9 @@ export const blogs = [
       //   text: "Comments (10)",
       // },
     ],
-    title: "¿Qué Estudia la Geodesia?",
-    desc: "La geodesia es la ciencia que, principalmente, estudia la forma, orientación, posición y dimensiones de la Tierra, lo cual es difícil de definirlo debido a...",
-    linkText: "Leer mas",
+    title: "¿QUE ESTUDIA LA GEODESIA?",
+    desc: "La geodesia es la ciencia que, principalmente, estudia la forma, orientación, posición y dimensiones de la Tierra, lo cual es difícil de definirlo debido a su campo gravitatorio y a que solo puede ser estudiado por medio de los parámetros observados sobre la superficie o en el exterior. ¿CÓMO SE DETERMINAN LOS PUNTOS GEODÉSICOS? La geodesia nos permite determinar con precisión la posición de un punto en base, a la latitud, longitud y altura ortométrica sobre una superficie. Estas mediciones geodésicas dependen de la exactitud y precisión de los métodos matemáticos que se utilizan como el elipsoide de rotación, esferoide local, plano horizontal y geoide, ya que debe existir una aproximación a la superficie verdadera en la ubicación deseada. Cada posición derivada de los puntos, extienden una red geodésica que cubre determinada región, las cuales son analizadas y gestionadas por el sistema de Información Geográfica (SIG). Este sistema se encarga de brindar información sobre espacios de la tierra que luego serán estudiados por la topografía mediante mapas topográficos, por lo que la geodesia se posiciona como una ciencia base de la topografía.",
+    linkText: "Leer más",
   },
   {
     id: 5,
@@ -548,9 +548,9 @@ export const blogs = [
       //   text: "Comments (10)",
       // },
     ],
-    title: "El uso de Drones en la Topografía",
-    desc: "Los trabajos de topografía han experimentado un desarrollo tecnológico muy importante en los últimos años y entre ellas, se encuentra el uso de drones en...",
-    linkText: "Leer mas",
+    title: "EL USO DE DRONES EN LA TOPOGRAFÍA",
+    desc: "Los trabajos de topografía han experimentado un desarrollo tecnológico muy importante en los últimos años y entre ellas, se encuentra el uso de drones en los proyectos de topografía. La ciencia de la topografía tiene como principal objetivo, conocer la forma y dimensiones de un terreno mediante el estudio de los relieves que lo conforman, por lo que se necesitan determinar la posición relativa de los puntos solicitados y los drones funcionan como un complemento a la topografía profesional. Los vuelos fotogramétricos realizados por los drones, ayudan a sobrevolar las zonas a trabajar y, de esta manera, brindan información de las propiedades geométricas y las dimensiones con las que cuenta una superficie estudiada a partir de la información recolectada mediante las imágenes. Estas son estudiadas por la planimetría y la altimetría, las cuales ayudan a obtener modelos digitales precisos de un terreno. La altimetría mide, topográficamente, la altura y la planimetría se encarga de medir espacios y representarlos en planos. La lectura de imágenes geo-referenciadas son leídas por el software del dron el cual permite exportar videos y, modelos de mallas con textura, lo que permite realizar un levantamiento topográfico más preciso, a comparación de una medición tradicional como la que se realiza con el teodolito o finalmente, con la estación total.",
+    linkText: "Leer más",
   },
   {
     id: 6,
@@ -567,7 +567,7 @@ export const blogs = [
       // },
     ],
     title: "LA IMPORTANCIA DE LA TOPOGRAFÍA EN LA CONSTRUCCIÓN",
-    desc: "Con el transcurso de los años, se ha ido implementando el desarrollo de la tecnología con herramientas topográficas para poder seguir con el progreso de...",
-    linkText: "Leer mas",
+    desc: "Con el transcurso de los años, se ha ido implementando el desarrollo de la tecnología con herramientas topográficas para poder seguir con el progreso de las obras civiles por construcción, siendo parte de los campos de la ingeniería civil y los diseños arquitectónicos. Es fundamental emplear la topografía en un sistema constructivo porque la información topográfica es elemental para los proyectos de construcción, el cual debe ser plasmado en planos que contengan las limitaciones, niveles y alturas de referencia con las que cuenta la obra.  La topografía es una ciencia que permite precisar las características superficiales del terreno al medir una representación gráfica, y en base a la información recolectada del área, se obtiene el control de la obra por medios topográficos, ya que determina la viabilidad del proyecto. Primero, se determinan los métodos topográficos a emplear, ya que se debe implementar un levantamiento topográfico para poder establecer el proyecto en base a coordenadas arbitrarias las cuales usan puntos de referencia en la zona del proyecto, aquello permite calcular las dimensiones, niveles, medidas distanciométricas y angulares, características de la superficie y sus alrededores.",
+    linkText: "Leer más",
   },
 ];

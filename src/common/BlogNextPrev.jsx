@@ -13,8 +13,8 @@ const BlogNextPrev = () => {
                         <i className="fas fa-arrow-left"></i> 
                     </button>
                     <div className="blog-nextPrev__content">
-                        <span className="blog-nextPrev__text">Previous post</span>
-                        <h6 className="blog-nextPrev__title mb-0">Insure your peace of mind</h6>
+                        <span className="blog-nextPrev__text">Regresar</span>
+                        {/* <h6 className="blog-nextPrev__title mb-0">Insure your peace of mind</h6> */}
                     </div> 
                 </div>
                 <div className="blog-nextPrev__item flx-align flex-row-reverse ms-auto">
@@ -22,8 +22,8 @@ const BlogNextPrev = () => {
                         <i className="fas fa-arrow-right"></i> 
                     </button>
                     <div className="blog-nextPrev__content text-end">
-                        <span className="blog-nextPrev__text">Next post</span>
-                        <h6 className="blog-nextPrev__title mb-0">Insure your peace of mind</h6>
+                        <span className="blog-nextPrev__text">Avanzar</span>
+                        {/* <h6 className="blog-nextPrev__title mb-0">Insure your peace of mind</h6> */}
                     </div> 
                 </div>
             </div>   

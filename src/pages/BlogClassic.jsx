@@ -37,7 +37,7 @@ const BlogClassic = () => {
             <BlogClassicSection/> 
 
             {/* Cta */}
-            <Cta ctaClass=""/>
+            {/* <Cta ctaClass=""/> */}
 
             {/* Footer */}
             <Footer/>

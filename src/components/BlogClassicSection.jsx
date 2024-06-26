@@ -1,4 +1,3 @@
-import React from 'react';
 import Pagination from '../common/Pagination';
 import { blogs } from '../data/HomeOneData/HomeOneData';
 import CommonSidebar from '../common/CommonSidebar';
@@ -18,7 +17,7 @@ const BlogClassicSection = () => {
                                     )
                                 })
                             }
-                            <Pagination/>
+                            {/* <Pagination/> */}
                         </div>
                         <div className="col-lg-4">
                             <CommonSidebar renderSearch={true} renderProperties={false} renderTags={true}/>

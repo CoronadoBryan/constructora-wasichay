@@ -260,28 +260,20 @@ export const sidebarProperties = [
 
 export const sidebarTags = [
   {
-    text: "All Project",
-    link: "/blog",
+    text: "Importancia de la topografía",
+    link: "https://www.geoenciclopedia.com/topografia-que-es-para-que-sirve-e-importancia-954.html",
   },
   {
-    text: "Finders",
-    link: "/blog",
+    text: "Ventajas de la topografía",
+    link: "https://www.proscont.com/ventajas-y-desventajas-de-las-cartas-topograficas/",
   },
   {
-    text: "Home Sales",
-    link: "/blog",
+    text: "¿Dónde estudiar topografía?",
+    link: "https://www.tecsup.edu.pe/programas-academicos/carreras-tecnicas-2-anos/topografia",
   },
   {
-    text: "Swift",
-    link: "/blog",
-  },
-  {
-    text: "Reliable Rentals",
-    link: "/blog",
-  },
-  {
-    text: "Living",
-    link: "/blog",
+    text: "¿Cuánto gana un topografo de drones? ",
+    link: "https://icontinental.edu.pe/cuanto-gana-un-topografo-en-peru/blogs/",
   },
 ];
 // ============================== Property Details Page Data End ==============================

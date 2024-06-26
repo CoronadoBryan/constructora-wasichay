@@ -9,7 +9,7 @@ const CommonSidebar = ({ renderProperties, renderSearch, renderTags }) => {
     return (
         <>
             <div className="common-sidebar-wrapper">
-                {
+                {/* {
                     renderSearch && (
                         <div className="common-sidebar p-0">
                             <form action="#" autoComplete="off">
@@ -20,15 +20,15 @@ const CommonSidebar = ({ renderProperties, renderSearch, renderTags }) => {
                             </form>
                         </div>
                     )
-                }
+                } */}
 
-                <div className="common-sidebar">
+                {/* <div className="common-sidebar">
                     <h6 className="common-sidebar__title"> Category </h6>
                     <SidebarCategoryList/>
-                </div>
+                </div> */}
 
                 <div className="common-sidebar">
-                    <h6 className="common-sidebar__title"> Recent Post </h6>
+                    <h6 className="common-sidebar__title"> Otras publicaciones </h6>
                     <SidebarRecentPost/>
                 </div>
 
@@ -44,7 +44,7 @@ const CommonSidebar = ({ renderProperties, renderSearch, renderTags }) => {
                 {
                     renderTags && (
                         <div className="common-sidebar">
-                            <h6 className="common-sidebar__title"> Tags </h6>
+                            <h6 className="common-sidebar__title">Otras preguntas</h6>
                             <ul className="tag-list">
                                 {
                                     sidebarTags.map((sidebarTag, sidebarTagIndex) => {
@@ -59,7 +59,8 @@ const CommonSidebar = ({ renderProperties, renderSearch, renderTags }) => {
                         </div>
                     )
                 }
-            </div>   
+            </div> 
+        
         </>
     );
 };
