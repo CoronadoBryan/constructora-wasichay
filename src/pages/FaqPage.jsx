@@ -13,7 +13,7 @@ import MobileMenu from '../common/MobileMenu';
 const FaqPage = () => {
     return (
         <>
-        <PageTitle title="CityScape - Frequently Ask Question" />
+        <PageTitle title="Wasichay - Frequently Ask Question" />
         <OffCanvas/>
         <MobileMenu/>
             {/* Header */}

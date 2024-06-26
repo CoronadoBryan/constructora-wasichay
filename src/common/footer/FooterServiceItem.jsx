@@ -6,7 +6,7 @@ const FooterServiceItem = () => {
     return (
         <>
             <div className="footer-item">
-                <h6 className="footer-item__title">Services</h6>
+                <h6 className="footer-item__title">Servicios</h6>
                 <ul className="footer-menu">
                     {
                         footerServiceLinks.map((footerServiceLink, index) => {

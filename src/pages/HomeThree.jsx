@@ -15,7 +15,7 @@ const HomeThree = () => {
     return (
         <>
         
-        <PageTitle title="CityScape - Home Three" />
+        <PageTitle title="Wasichay - Home Three" />
             <OffCanvas/>
             <MobileMenu/>
             
@@ -28,7 +28,7 @@ const HomeThree = () => {
                     logoWhite={false}
                     headerMenusClass="ms-auto menu-right"
                     btnClass="btn btn-main  d-lg-block d-none"
-                    btnLink="/add-new-listing"
+                    btnLink="https://api.whatsapp.com/send?phone=51922672095&text=Buenos%20d%C3%ADas%2C%20este%20es%20un%20texto%20completamente%20personalizable."
                     btnText="Contactar"
                     spanClass="icon-right" 
                     showHeaderBtn={true}

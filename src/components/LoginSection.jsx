@@ -81,7 +81,7 @@ const LoginSection = () => {
                                 <div className="col-lg-6">
                                     <div className="loginRegister-content">
                                         <form onSubmit={formik.handleSubmit} method="POST">
-                                            <h3 className="loginRegister__title text-poppins">Login to CityScape</h3>
+                                            <h3 className="loginRegister__title text-poppins">Login to Wasichay</h3>
                                             <p className="loginRegister__desc mb-4 font-18">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum, corrupti.</p>
 
                                             <div className="row gy-lg-4 gy-3">

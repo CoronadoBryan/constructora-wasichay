@@ -36,10 +36,10 @@ const BlogDetailsSection = () => {
                                         {location.state.admin}
                                     </li>
 
-                                    <li className="blog-infos__item">
+                                    {/* <li className="blog-infos__item">
                                         <Link to="#" className="blog-infos__link"> 
                                             <span className="icon"><i className="fas fa-comment-alt"></i> </span>
-                                            Web Design
+                                            Webs Design
                                         </Link>
                                     </li>
                                     <li className="blog-infos__item">
@@ -47,11 +47,11 @@ const BlogDetailsSection = () => {
                                             <span className="icon"> <i className="fas fa-comments"></i></span>
                                             Comments (05)
                                         </Link>
-                                    </li>
+                                    </li> */}
                                 </ul>
                                 <h5 className="blog-details__title">{location.state.title}</h5>
-                                <p className="blog-details__desc">{location.state.desc.slice(0, 162)}</p>
-                                <p className="blog-details__desc">{location.state.desc.slice(163, 600)}</p>
+                                {/* <p className="blog-details__desc">{location.state.desc_general}</p> */}
+                                <p className="blog-details__desc">{location.state.desc.slice(0, 800)}</p>
                             </div>
 
                             {/* Blog Testi Start */}

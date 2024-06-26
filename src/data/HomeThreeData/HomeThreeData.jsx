@@ -109,8 +109,8 @@ export const propertyTwoTabs = [
 import messageThreeIcon from '../../../public/assets/images/icons/customer-service.svg'; 
 export const messageThreeContents = {
     icon: messageThreeIcon,
-    text: 'ayuda 24/7',
-    number: '(+51) 901 064 562',
+    text: 'Ayuda 24/7',
+    number: '(+51) 922 672 095',
     desc: 'Estamos disponibles las 24 horas del día, los 7 días de la semana para ayudarte con cualquier pregunta o inquietud que puedas tener. No dudes en contactarnos.'
 }
 

@@ -13,7 +13,7 @@ const ProjectDetails = () => {
 
     return (
         <>
-        <PageTitle title="CityScape - Project Details" />
+        <PageTitle title="Wasichay - Project Details" />
 
         <main className="body-bg">
             

@@ -10,7 +10,7 @@ import MobileMenu from "../common/MobileMenu";
 const Project = () => {
   return (
     <>
-       <PageTitle title="CityScape - Home Project" />
+       <PageTitle title="Wasichay - Home Project" />
             <OffCanvas/>
             <MobileMenu/>
       <main className="body-bg">
