@@ -6,7 +6,7 @@ const FooterUsefulItem = () => {
     return (
         <>
              <div className="footer-item ms-xl-5">
-                <h6 className="footer-item__title">Useful Links</h6>
+                <h6 className="footer-item__title">Nuestras Páginas</h6>
                 <ul className="footer-menu">
                     {
                         footerUsefulLinks.map((footerUsefulLink, footerUsefulLinkIndex) => {

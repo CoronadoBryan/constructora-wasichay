@@ -463,21 +463,22 @@ export const blogs = [
   {
     id: 1,
     thumb: blogThumb1,
-    admin: "Stanio Lainto",
+    admin: "Grupo Wasichay",
     meta: [
       {
         icon: <i className="fas fa-user"></i>,
-        text: " By admin",
+        text: "bryan coronado",
       },
-      {
-        icon: <i className="fas fa-comments"></i>,
-        text: "Comments (30)",
-      },
+      // {
+      //   icon: <i className="fas fa-comments"></i>,
+      //   text: "",
+      // },
     ],
-    title: "Discover Endless Possibilities in Real Estate Live Your Best Life",
-    desc: "Real estate is a lucrative industry that involves the buying, selling, and renting of properties. It encompasses residential, commercial, and industrial properties. Real estate agents play a crucial role in facilitating transactions and helping.",
-    linkText: "Read More",
+    title: "FUNCIONES DE UN TOPÓGRAFO PROFESIONAL",
+    desc: "La topografía es una ciencia que resulta fundamental para la ejecuctopografía es una ciencia que resulta fundamental para la ejecuctopografía es una ciencia que resulta fundamental para la ejecuctopografía es una ciencia que resulta fundamental para la ejecuctopografía es una ciencia que resulta fundamental para la ejecuctopografía es una ciencia que resulta fundamental para la ejecuctopografía es una ciencia que resulta fundamental para la ejecuctopografía es una ciencia que resulta fundamental para la ejecuctopografía es una ciencia que resulta fundamental para la ejecuctopografía es una ciencia que resulta fundamental para la ejecuctopografía es una ciencia que resulta fundamental para la ejecución de muchos trabajos. En campos como la construcción, ingeniería civil, edificación, urbanismo, cartografía, etc., se necesita",
+    linkText: "Leer mas",
   },
+
   {
     id: 2,
     thumb: blogThumb2,
@@ -486,16 +487,16 @@ export const blogs = [
     meta: [
       {
         icon: <i className="fas fa-user"></i>,
-        text: " By admin",
+        text: "adribell samara",
       },
-      {
-        icon: <i className="fas fa-comments"></i>,
-        text: "Comments (50)",
-      },
+      // {
+      //   icon: <i className="fas fa-comments"></i>,
+      //   text: "Comments (50)",
+      // },
     ],
-    title: "Turn Your Real Estate Dreams Into Reality Embrace the Real Estate",
-    desc: "Real estate is a lucrative industry that involves the buying, selling, and renting of properties. It encompasses residential, commercial, and industrial properties. Real estate agents play a crucial role in facilitating transactions and helping.",
-    linkText: "Read More",
+    title: "5 MEJORES HERRAMIENTAS DE UN TOPÓGRAFO",
+    desc: "La topografía se encarga del estudio de la forma y relieve de la forma de una superficie mediante los ángulos y distancias horizontales y verticales...",
+    linkText: "Leer mas",
   },
   {
     id: 3,
@@ -504,16 +505,16 @@ export const blogs = [
     meta: [
       {
         icon: <i className="fas fa-user"></i>,
-        text: " By admin",
+        text: "adribell samara",
       },
-      {
-        icon: <i className="fas fa-comments"></i>,
-        text: "Comments (10)",
-      },
+      // {
+      //   icon: <i className="fas fa-comments"></i>,
+      //   text: "Comments (10)",
+      // },
     ],
-    title: "Your Journey to Home Ownership Starts Here: The Satisfaction",
-    desc: "Real estate is a lucrative industry that involves the buying, selling, and renting of properties. It encompasses residential, commercial, and industrial properties. Real estate agents play a crucial role in facilitating transactions and helping.",
-    linkText: "Read More",
+    title: "IMPORTANCIA DE LOS ESTUDIOS BATIMÉTRICOS",
+    desc: "La batimetría se denomina topografía hidrográfica y se encarga de realizar el levantamiento topográfico del relieve de superficies cubiertas de agua. ¿CÓMO SE REALIZA LA...",
+    linkText: "Leer mas",
   },
   {
     id: 4,
@@ -522,16 +523,16 @@ export const blogs = [
     meta: [
       {
         icon: <i className="fas fa-user"></i>,
-        text: " By admin",
+        text: " adribell samara",
       },
-      {
-        icon: <i className="fas fa-comments"></i>,
-        text: "Comments (10)",
-      },
+      // {
+      //   icon: <i className="fas fa-comments"></i>,
+      //   text: "Comments (10)",
+      // },
     ],
-    title: "Experience the Best in Real Estate Services",
-    desc: "Real estate is a lucrative industry that involves the buying, selling, and renting of properties. It encompasses residential, commercial, and industrial properties. Real estate agents play a crucial role in facilitating transactions and helping.",
-    linkText: "Read More",
+    title: "¿Qué Estudia la Geodesia?",
+    desc: "La geodesia es la ciencia que, principalmente, estudia la forma, orientación, posición y dimensiones de la Tierra, lo cual es difícil de definirlo debido a...",
+    linkText: "Leer mas",
   },
   {
     id: 5,
@@ -540,16 +541,16 @@ export const blogs = [
     meta: [
       {
         icon: <i className="fas fa-user"></i>,
-        text: " By admin",
+        text: " adribell samara",
       },
-      {
-        icon: <i className="fas fa-comments"></i>,
-        text: "Comments (10)",
-      },
+      // {
+      //   icon: <i className="fas fa-comments"></i>,
+      //   text: "Comments (10)",
+      // },
     ],
-    title: "Let Us Find the Perfect Property for You: Elite Realty Services",
-    desc: "Real estate is a lucrative industry that involves the buying, selling, and renting of properties. It encompasses residential, commercial, and industrial properties. Real estate agents play a crucial role in facilitating transactions and helping.",
-    linkText: "Read More",
+    title: "El uso de Drones en la Topografía",
+    desc: "Los trabajos de topografía han experimentado un desarrollo tecnológico muy importante en los últimos años y entre ellas, se encuentra el uso de drones en...",
+    linkText: "Leer mas",
   },
   {
     id: 6,
@@ -558,15 +559,15 @@ export const blogs = [
     meta: [
       {
         icon: <i className="fas fa-user"></i>,
-        text: " By admin",
+        text: " adribell samara",
       },
-      {
-        icon: <i className="fas fa-comments"></i>,
-        text: "Comments (10)",
-      },
+      // {
+      //   icon: <i className="fas fa-comments"></i>,
+      //   text: "Comments (10)",
+      // },
     ],
-    title: "Investing in Real Estate Made Easy: The Door to Your New Home",
-    desc: "Real estate is a lucrative industry that involves the buying, selling, and renting of properties. It encompasses residential, commercial, and industrial properties. Real estate agents play a crucial role in facilitating transactions and helping.",
-    linkText: "Read More",
+    title: "LA IMPORTANCIA DE LA TOPOGRAFÍA EN LA CONSTRUCCIÓN",
+    desc: "Con el transcurso de los años, se ha ido implementando el desarrollo de la tecnología con herramientas topográficas para poder seguir con el progreso de...",
+    linkText: "Leer mas",
   },
 ];

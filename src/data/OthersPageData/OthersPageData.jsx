@@ -711,8 +711,7 @@ export const teams = [
   {
     thumb: teamImg1,
     name: "Siempre va más allá para garantizar la satisfacción del cliente.",
-    designation:
-      "Annette Black",
+    designation: "Annette Black",
   },
   {
     thumb: teamImg2,
@@ -1028,38 +1027,21 @@ export const projectSidebarLists = [
 export const contactTopInfos = [
   {
     icon: <i className="fas fa-paper-plane"></i>,
-    title: "Email",
-    textOne: "michelle.rivera@example.com",
-    textTwo: "cityscape@example.com",
+    title: "Correo electrónico",
+    textOne: "constructora.group.wasichay@gmail.com",
     link: "mailto:",
   },
   {
     icon: <i className="fas fa-map-marker-alt"></i>,
-    title: "Location",
-    text: "8502 Preston Rd. Inglewood, Maine 98380",
+    title: "Ubicación",
+    textOne: "Velez De Villa, Los Olivos 15306",
+    link: "https://www.google.com/maps/place/Velez+De+Villa,+Los+Olivos+15306/@-11.973372,-77.079311,19z/data=!4m6!3m5!1s0x9105ce3fd5b28fbb:0x3e0786a6afa008d9!8m2!3d-11.9733722!4d-77.079311!16s%2Fg%2F11sb_nw0ff?hl=es&entry=ttu",
   },
   {
     icon: <i className="fas fa-phone"></i>,
-    title: "Contacts ",
-    textOne: "(270) 555-0117",
-    textTwo: "(557) 284-3641 ",
+    title: "Contáctanos",
+    textOne: "+51 935 681 025",
     link: "tel:",
   },
 ];
-// ========================= Project Page Data End =========================
 
-// ========================= Project Page Data End =========================
-// export const propertyTables = [
-//     {
-
-//     },
-// ]
-// ========================= Project Page Data End =========================
-
-// ========================= Project Page Data End =========================
-// export const propertyTables = [
-//     {
-
-//     },
-// ]
-// ========================= Project Page Data End =========================

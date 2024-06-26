@@ -13,7 +13,7 @@ const BlogDetails = () => {
     
     return (
         <>
-            <PageTitle title="CityScape - Blog Details" />
+            <PageTitle title="Wasichay - Blog Details" />
 
             {/* Header */}
             <Header 

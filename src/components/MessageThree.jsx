@@ -14,7 +14,7 @@ const MessageThree = () => {
 
                                 <SectionHeading
                                     headingClass="section-heading style-left style-flex mb-0"  
-                                    subtitle="contactanos"
+                                    subtitle="contáctanos"
                                     subtitleClass="" 
                                     title="Siempre estamos aquí para ayudarte" 
                                     renderDesc={false}

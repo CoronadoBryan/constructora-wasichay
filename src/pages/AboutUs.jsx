@@ -4,7 +4,7 @@ import Breadcrumb from "../common/Breadcrumb";
 import Cta from "../components/Cta";
 import AboutThree from "../components/AboutThree";
 import PropertyTypeThree from "../components/PropertyTypeThree";
-import TestimonialThree from '../components/Testimonial'
+import ContactTop from "../components/ContactTop";
 import PageTitle from "../common/PageTitle";
 import OffCanvas from "../common/OffCanvas";
 import MobileMenu from "../common/MobileMenu";
@@ -13,9 +13,9 @@ import Faq from "../components/Faq";
 const AboutUs = () => {
   return (
     <>
-      <PageTitle title="CityScape - About Us" />
-      <OffCanvas/>
-      <MobileMenu/>
+      <PageTitle title="Wasichay - About Us" />
+      <OffCanvas />
+      <MobileMenu />
       {/* Header */}
       <Header
         headerClass="dark-header has-border"
@@ -34,11 +34,9 @@ const AboutUs = () => {
       <Breadcrumb pageTitle="Nosotros" pageName="Nosotros" />
       <AboutThree />
       <Cta />
-      {/* <TestimonialThree /> */}
       <PropertyTypeThree />
-    
-        {/* Faq */}
-                <Faq/> 
+      <Faq />
+      <ContactTop />
       <Footer />
     </>
   );

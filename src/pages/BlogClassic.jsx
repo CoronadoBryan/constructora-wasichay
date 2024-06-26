@@ -9,7 +9,7 @@ import MobileMenu from '../common/MobileMenu';
 const BlogClassic = () => {
     return (
         <>
-        <PageTitle title="CityScape - Blog Classic" />
+        <PageTitle title="Wasichay - Blog Classic" />
         <OffCanvas/>
         <MobileMenu/>
             {/* Header */}
@@ -30,8 +30,8 @@ const BlogClassic = () => {
 
             {/* BreadCrumb */}
             <Breadcrumb 
-                pageTitle="Blog Classic"
-                pageName="Blog Classic"
+                pageTitle="Blog "
+                pageName="Blog "
             />
 
             <BlogClassicSection/> 
