@@ -11,7 +11,7 @@ import MobileMenu from "../common/MobileMenu";
 const Contact = () => {
   return (
     <>
-      <PageTitle title="CityScape - Contact Us" />
+      <PageTitle title="Grupo Wasichay - Contactanos" />
       <OffCanvas />
       <MobileMenu />
       <main className="body-bg">
@@ -32,14 +32,14 @@ const Contact = () => {
         />
 
         {/* BreadCrumb */}
-        <Breadcrumb pageTitle="Contact Us" pageName="Contact Us" />
+        <Breadcrumb pageTitle="Contactanos" pageName="Contactanos" />
 
         {/* Contact Top */}
         <ContactTop />
 
         <div className="contact-map address-map">
           <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1150112.1628856962!2d44.64619029447154!3d23.086651461779507!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f43348a67e24b%3A0xff45e502e1ceb7e2!2sBurj%20Khalifa!5e0!3m2!1sen!2sbd!4v1707037970965!5m2!1sen!2sbd"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d975.7540832304024!2d-77.07995473037398!3d-11.973370887338076!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105ce3fd5b28fbb%3A0x3e0786a6afa008d9!2sVelez%20De%20Villa%2C%20Los%20Olivos%2015306!5e0!3m2!1ses!2spe!4v1713449713907!5m2!1ses!2spe"
             allowFullScreen=""
             loading="lazy"
             referrerPolicy="no-referrer-when-downgrade"

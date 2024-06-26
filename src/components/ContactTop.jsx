@@ -9,9 +9,9 @@ const ContactTop = () => {
                 <div className="container container-two">
                     <div className="section-heading">
                         <span className="section-heading__subtitle bg-gray-100"> 
-                            <span className="text-gradient fw-semibold">Contact</span> 
+                            <span className="text-gradient fw-semibold">Contacto</span> 
                         </span>
-                        <h2 className="section-heading__title">Contact Us!</h2>
+                        <h2 className="section-heading__title">Busca respuestas con confianza</h2>
                     </div>
                     <div className="row gy-4">
                         {
