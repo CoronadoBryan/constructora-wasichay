@@ -12,11 +12,11 @@ const ContactUsSection = () => {
 
     emailjs
       .sendForm(
-        "service_5opdqb8", // YOUR_SERVICE_ID
-        "template_tel2xio", // YOUR_TEMPLATE_ID
+        "service_ybdo1n5", // YOUR_SERVICE_ID
+        "template_pwt403v", // YOUR_TEMPLATE_ID
         form.current,
         {
-          publicKey: "TkEXMnREcdrQyndFz", // YOUR_PUBLIC_KEY
+          publicKey: "1Zp9ssMB4BQqLdgHc", // YOUR_PUBLIC_KEY
         }
       )
       .then(
