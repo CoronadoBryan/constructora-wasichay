@@ -22,14 +22,136 @@
   </head>
   <body>
 
+    <style>
 
+      .principal:hover{
+        background-color: rgb(0, 0, 0);
+        transition: all 0.5s ease-in-out;
+        color : var(--principal);
+      }
+  
+   /* Estilo del m de Redes Sociales */
+.fixed-bottom-right {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1000;
+    transition: opacity 0.5s ease-in-out, visibility 0.5s ease-in-out;
+}
+
+.fixed-bottom-right.hidden {
+    opacity: 0;
+    visibility: hidden;
+}
+
+.social-btn {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 74%;
+    border-radius: 50%;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+    text-decoration: none;
+    color: inherit;
+    margin-bottom: 7px;
+}
+
+.consultas-btn {
+    display: flex;
+    align-items: center;
+    background-color: var(--principal);
+    border: none;
+    padding: 10px 20px;
+    border-radius: 25px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+}
+
+.consultas-btn .fas {
+    margin-right: 10px;
+}
+
+/* .fab.fa-linkedin { */
+#linkedin {
+    color: #0077B5;
+    /* LinkedIn color */
+}
+
+#instagram {
+    color: #E4405F;
+    /* Instagram color */
+}
+
+#facebook {
+    color: #1877F2;
+    /* Facebook color */
+}
+
+#whatsapp {
+    color: #25D366;
+    /* WhatsApp color */
+}
+
+.btn-animate:hover {
+    transition: all 0.5s ease-in-out;
+    animation: bounce 1.6s infinite;
+}
+
+@keyframes bounce {
+
+    0%,
+    20%,
+    50%,
+    80%,
+    100% {
+        transform: translateY(0);
+    }
+
+    40% {
+        transform: translateY(-5px);
+    }
+
+    60% {
+        transform: translateY(-5px);
+    }
+}
+
+
+    </style>
 
     
+
+  <div class="contenedor-general">
+    <div id="social-buttons" class="fixed-bottom-right">
+      <a href="https://www.linkedin.com/" target="_blank" class="social-btn btn-animate"><i id="linkedin"
+              class="fab fa-linkedin"></i></a>
+      <a href="https://www.instagram.com/constructora_group_wasichay/" target="_blank" class="social-btn btn-animate"><i
+              id="instagram" class="fab fa-instagram"></i></a>
+      <a href="https://www.facebook.com/profile.php?id=61553256385301" target="_blank" class="social-btn btn-animate"><i
+              id="facebook" class="fab fa-facebook-f"></i></a>
+      <a href="https://wa.link/u1i0pp" target="_blank" class="social-btn btn-animate"><i id="whatsapp"
+              class="fab fa-whatsapp"></i></a>
+      <button  id="chatbot-btn" onclick="openChatbot()" aria-label="Abrir Chatbot" class="principal consultas-btn">
+          <i class="fas fa-comment-dots"></i> CONSULTAS
+      </button>
+
+  </div>
+</div>
+  
+
+
+
+
 
     
     <div id="root"></div>
     <script type="module" src="/src/main.jsx"></script>
-    <script src="//code.tidio.co/ymasiwg9kjc7ldubk4pb7zovb6jvspdh.js" async></script>
+    <!-- <script src="//code.tidio.co/ymasiwg9kjc7ldubk4pb7zovb6jvspdh.js" async></script> -->
     
     <!-- Bootstrap Bundle Js -->
     <script src="assets/js/bootstrap.bundle.min.js"></script>
