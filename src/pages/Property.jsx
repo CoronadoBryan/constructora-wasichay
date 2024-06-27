@@ -9,7 +9,7 @@ import PageTitle from '../common/PageTitle';
 const Property = () => {
     return (
         <>
-        <PageTitle title="Wasichay - Property" />
+        <PageTitle title="Wasichay - Cursos" />
 
         <main className="body-bg">
             

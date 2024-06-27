@@ -13,7 +13,7 @@ import Faq from "../components/Faq";
 const AboutUs = () => {
   return (
     <>
-      <PageTitle title="Wasichay - About Us" />
+      <PageTitle title="Wasichay - Sobre Nosotros" />
       <OffCanvas />
       <MobileMenu />
       {/* Header */}

@@ -15,7 +15,7 @@ const HomeThree = () => {
     return (
         <>
         
-        <PageTitle title="Wasichay - Home Three" />
+        <PageTitle title="Wasichay - Inicio" />
             <OffCanvas/>
             <MobileMenu/>
             
