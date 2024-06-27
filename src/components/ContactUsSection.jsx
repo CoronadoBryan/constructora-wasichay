@@ -166,50 +166,6 @@ const ContactUsSection = () => {
     </>
   );
 
-  // return (
-  //     <>
-  //         <ToastContainer />
-  //         <section className="contact-us-section padding-b-120">
-  //             <div className="container container-two">
-  //                 <div className="contact-form bg-white">
-  //                     <div className="section-heading">
-  //                         <span className="section-heading__subtitle bg-gray-100">
-  //                             <span className="text-gradient fw-semibold">Contactanos</span>
-  //                         </span>
-  //                         <h2 className="section-heading__title">¿Tienes alguna pregunta?</h2>
-  //                         <p className="section-heading__desc">¿Necesitas apoyo en proyectos de construcción o topografía? Nuestro equipo de profesionales altamente calificados está listo para asistirte. Somos la opción preferida por muchos clientes en el sector de la construcción y la topografía</p>
-  //                     </div>
-  //                     <div className="contact-form__form">
-
-  //                         <form ref={form} onSubmit={sendEmail} className="contact-form__form">
-  //                             <div className="row gy-4">
-  //                                 <div className="col-sm-6 col-xs-6">
-  //                                     <input type="text" className="common-input" name='user_name' placeholder="Your fasd" />
-  //                                 </div>
-  //                                 <div className="col-sm-6 col-xs-6">
-  //                                     <input type="email" className="common-input" name='user_email' placeholder="Your E-mail" />
-  //                                 </div>
-  //                                 <div className="col-sm-6 col-xs-6">
-  //                                     <input type="tel" className="common-input" name='user_phone' placeholder="Phone Number" />
-  //                                 </div>
-  //                                 <div className="col-sm-6 col-xs-6">
-  //                                     <input type="text" className="common-input" name='user_subject' placeholder="Subject" />
-  //                                 </div>
-  //                                 <div className="col-12">
-  //                                     <textarea className="common-input" name='message' placeholder="Your Message"></textarea>
-  //                                 </div>
-  //                                 <div className="col-12">
-  //                                     <button type="submit" className="btn btn-main w-100">Submit Now</button>
-  //                                 </div>
-  //                             </div>
-  //                         </form>
-
-  //                     </div>
-  //                 </div>
-  //             </div>
-  //         </section>
-  //     </>
-  // );
 };
 
 export default ContactUsSection;
