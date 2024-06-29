@@ -49,5 +49,3 @@ const PropertyPageSection = () => {
 };
 
 export default PropertyPageSection;
-
-

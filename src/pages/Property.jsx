@@ -6,10 +6,16 @@ import PropertyPageSection from '../components/PropertyPageSection';
 import Cta from '../components/Cta';
 import PageTitle from '../common/PageTitle';
 
+import CoursePageSection from '../components/CoursePageSection';
+
 const Property = () => {
     return (
         <>
+<<<<<<< Updated upstream
         <PageTitle title="CityScape - Property" />
+=======
+        <PageTitle title="Wasichay - Cursos" />
+>>>>>>> Stashed changes
 
         <main className="body-bg">
             
@@ -31,12 +37,14 @@ const Property = () => {
 
             {/* BreadCrumb */}
             <Breadcrumb 
-                pageTitle="Property"
-                pageName="Property"
+                pageTitle="Cursos"
+                pageName="Cursos"
             />
 
             {/* Property Page Section */}
-            <PropertyPageSection/>
+            {/* <PropertyPageSection/> */}
+
+            <CoursePageSection/>
 
             {/* Cta */}
             <Cta ctaClass=""/>

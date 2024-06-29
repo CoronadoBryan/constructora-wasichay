@@ -9,6 +9,7 @@ import CounterThree from '../components/CounterThree';
 import PageTitle from '../common/PageTitle';
 import OffCanvas from '../common/OffCanvas';
 import MobileMenu from '../common/MobileMenu';
+import ContactUsSection from '../components/ContactUsSection';
 
 const FaqPage = () => {
     return (
@@ -42,7 +43,8 @@ const FaqPage = () => {
             <FaqTwo/>
 
             {/* Faq Contact Us */}
-            <FaqContactUs/>
+            {/* <FaqContactUs/> */}
+            <ContactUsSection />
 
             {/* Counter Four */}
             <CounterThree/>
