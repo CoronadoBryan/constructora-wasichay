@@ -15,7 +15,7 @@ const Property = () => {
                         headingClass="style-left style-dark flx-between align-items-end gap-3"  
                         subtitle="Latest property"
                         subtitleClass="" 
-                        title="Prestige Property Management property for you" 
+                        title="Prestige Property Management property for you"
                         renderDesc={false}
                         desc=""
                         renderButton={true}

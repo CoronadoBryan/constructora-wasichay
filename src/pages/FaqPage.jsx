@@ -1,14 +1,15 @@
-import React from "react";
-import Header from "../common/Header";
-import Footer from "../common/Footer";
-import Breadcrumb from "../common/Breadcrumb";
-import Cta from "../components/Cta";
-import FaqTwo from "../components/FaqTwo";
-import FaqContactUs from "../components/ContactUsSection";
-import CounterThree from "../components/CounterThree";
-import PageTitle from "../common/PageTitle";
-import OffCanvas from "../common/OffCanvas";
-import MobileMenu from "../common/MobileMenu";
+import React from 'react';
+import Header from '../common/Header';
+import Footer from '../common/Footer';
+import Breadcrumb from '../common/Breadcrumb';
+import Cta from '../components/Cta';
+import FaqTwo from '../components/FaqTwo';
+import FaqContactUs from '../components/FaqContactUs';
+import CounterThree from '../components/CounterThree';
+import PageTitle from '../common/PageTitle';
+import OffCanvas from '../common/OffCanvas';
+import MobileMenu from '../common/MobileMenu';
+import ContactUsSection from '../components/ContactUsSection';
 
 const FaqPage = () => {
   return (
@@ -38,8 +39,8 @@ const FaqPage = () => {
       {/* Faq Two */}
       <FaqTwo />
 
-      {/* Faq Contact Us */}
-      <FaqContactUs />
+            {/* Faq Contact Us */}
+            <FaqContactUs/>
 
       {/* Counter Four */}
       <CounterThree />

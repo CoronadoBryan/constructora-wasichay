@@ -2,6 +2,7 @@ import React from 'react';
 import ValidationForm from './ValidationForm';
 import SectionHeading from '../common/SectionHeading';
 import { messageThreeContents } from '../data/HomeThreeData/HomeThreeData';
+import ContactUsSection from './ContactUsSection';
 
 const MessageThree = () => {
     return (
@@ -18,7 +19,7 @@ const MessageThree = () => {
                                     subtitleClass="" 
                                     title="Siempre estamos aquí para ayudarte" 
                                     renderDesc={false}
-                                    desc="te ayudaremos en todo lo que necesites, no dudes en contactarnos."
+                                    desc="Te ayudaremos en todo lo que necesites, no dudes en contactarnos."
                                     renderButton={false}
                                     renderBesideDesc={true}
                                     buttonClass="btn-main"
