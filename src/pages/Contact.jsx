@@ -22,8 +22,8 @@ const Contact = () => {
           logoWhite={true}
           headerMenusClass="mx-auto"
           btnClass="btn btn-outline-main btn-outline-main-dark d-lg-block d-none"
-          btnLink="/add-new-listing"
-          btnText="Add Listing"
+          btnLink="https://api.whatsapp.com/send?phone=51935681025&text=%C2%A1Hola!%20Buen%20d%C3%ADa%20%F0%9F%98%8A%2C%20quisiera%20saber%20mas%20informaci%C3%B3n%20a%20cerca%20de%20los%20servicios%20Topogr%C3%A1ficos%20que%20ofrece."
+          btnText="CONTACTAR"
           spanClass="icon-right text-gradient"
           showHeaderBtn={true}
           showOffCanvasBtn={false}

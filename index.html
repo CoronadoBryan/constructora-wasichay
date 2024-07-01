@@ -1,164 +1,188 @@
-<!doctype html>
-<html lang="es"> <!-- Cambio del atributo lang a "es" para especificar que el contenido está en español -->
+<!DOCTYPE html>
+<html lang="es">
+  <!-- Cambio del atributo lang a "es" para especificar que el contenido está en español -->
 
-<head>
-    <meta charset="UTF-8" /> <!-- Especifica la codificación de caracteres para el documento HTML -->
+  <head>
+    <meta charset="UTF-8" />
+    <!-- Especifica la codificación de caracteres para el documento HTML -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- Configura la vista para ser responsive en dispositivos móviles -->
-    <meta name="description"
-        content="Group Wasichay nos especializa en levantamientos topográficos avanzados utilizando tecnología de drones para entregar resultados precisos y eficientes." />
+    <meta
+      name="description"
+      content="Group Wasichay nos especializa en levantamientos topográficos avanzados utilizando tecnología de drones para entregar resultados precisos y eficientes."
+    />
     <!-- Descripción del sitio para motores de búsqueda en español -->
-    <meta name="keywords"
-        content="Wasichay, topografía, levantamientos con drones, servicios topográficos, tecnología de drones, sercicios de topografia en peru , topografia en peru " />
+    <meta
+      name="keywords"
+      content="Wasichay, topografía, levantamientos con drones, servicios topográficos, tecnología de drones, sercicios de topografia en peru , topografia en peru "
+    />
     <!-- Palabras clave para motores de búsqueda en español -->
-    <meta property="og:title"
-        content="Group Wasichay - Realizamos Levantamientos Topográficos con Tecnología de Drones" />
+    <meta
+      property="og:title"
+      content="Group Wasichay - Realizamos Levantamientos Topográficos con Tecnología de Drones"
+    />
     <!-- Título del sitio para compartir en redes sociales en español -->
-    <meta property="og:description"
-        content="Descubre la precisión en topografía con los servicios avanzados de levantamiento con drones de Group Wasichay. Eleva la precisión y eficiencia de tu proyecto." />
+    <meta
+      property="og:description"
+      content="Descubre la precisión en topografía con los servicios avanzados de levantamiento con drones de Group Wasichay. Eleva la precisión y eficiencia de tu proyecto."
+    />
     <!-- Descripción del sitio para compartir en redes sociales en español -->
-    <meta property="og:type" content="website" /> <!-- Tipo de contenido para compartir en redes sociales -->
+    <meta property="og:type" content="website" />
+    <!-- Tipo de contenido para compartir en redes sociales -->
     <meta property="og:url" content="https://group-wasichay-v4.netlify.app/" />
     <!-- URL del sitio para compartir en redes sociales, ajustado a un dominio en español -->
-    <meta property="og:image" content="https://i.ibb.co/KN88Xmc/ultimo-logo.jpg" />
+    <meta
+      property="og:image"
+      content="https://i.ibb.co/KN88Xmc/ultimo-logo.jpg"
+    />
     <!-- Imagen del sitio para compartir en redes sociales, ajustado a un dominio en español -->
 
     <title>Group Wasichay - Topografía</title>
     <!-- Título del documento mostrado en la pestaña del navegador en español -->
 
     <!-- Bootstrap -->
-    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
     <!-- Font awesome -->
-    <link rel="stylesheet" href="assets/css/fontawesome-all.min.css">
+    <link rel="stylesheet" href="assets/css/fontawesome-all.min.css" />
     <!-- line awesome -->
-    <link rel="stylesheet" href="assets/css/line-awesome.min.css">
-</head>
+    <link rel="stylesheet" href="assets/css/line-awesome.min.css" />
+  </head>
 
-<body>
-
+  <body>
     <style>
-        .principal:hover {
-            background-color: rgb(0, 0, 0);
-            transition: all 0.5s ease-in-out;
-            color: var(--principal);
+      .principal:hover {
+        background-color: rgb(0, 0, 0);
+        transition: all 0.5s ease-in-out;
+        color: var(--principal);
+      }
+
+      /* Estilo del m de Redes Sociales */
+      .fixed-bottom-right {
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        z-index: 1000;
+        transition: opacity 0.5s ease-in-out, visibility 0.5s ease-in-out;
+      }
+
+      .fixed-bottom-right.hidden {
+        opacity: 0;
+        visibility: hidden;
+      }
+
+      .social-btn {
+        width: 40px;
+        height: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-left: 74%;
+        border-radius: 50%;
+        background-color: #fff;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+        text-decoration: none;
+        color: inherit;
+        margin-bottom: 7px;
+      }
+
+      .consultas-btn {
+        display: flex;
+        align-items: center;
+        background-color: var(--principal);
+        border: none;
+        padding: 10px 20px;
+        border-radius: 25px;
+        text-decoration: none;
+        color: black;
+        font-weight: bold;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+      }
+
+      .consultas-btn .fas {
+        margin-right: 10px;
+      }
+
+      /* .fab.fa-linkedin { */
+      #linkedin {
+        color: #0077b5;
+        /* LinkedIn color */
+      }
+
+      #instagram {
+        color: #e4405f;
+        /* Instagram color */
+      }
+
+      #facebook {
+        color: #1877f2;
+        /* Facebook color */
+      }
+
+      #whatsapp {
+        color: #25d366;
+        /* WhatsApp color */
+      }
+
+      .btn-animate:hover {
+        transition: all 0.5s ease-in-out;
+        animation: bounce 1.6s infinite;
+      }
+
+      @keyframes bounce {
+        0%,
+        20%,
+        50%,
+        80%,
+        100% {
+          transform: translateY(0);
         }
 
-        /* Estilo del m de Redes Sociales */
-        .fixed-bottom-right {
-            position: fixed;
-            bottom: 20px;
-            right: 20px;
-            z-index: 1000;
-            transition: opacity 0.5s ease-in-out, visibility 0.5s ease-in-out;
+        40% {
+          transform: translateY(-5px);
         }
 
-        .fixed-bottom-right.hidden {
-            opacity: 0;
-            visibility: hidden;
+        60% {
+          transform: translateY(-5px);
         }
-
-        .social-btn {
-            width: 40px;
-            height: 40px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            margin-left: 74%;
-            border-radius: 50%;
-            background-color: #fff;
-            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
-            text-decoration: none;
-            color: inherit;
-            margin-bottom: 7px;
-        }
-
-        .consultas-btn {
-            display: flex;
-            align-items: center;
-            background-color: var(--principal);
-            border: none;
-            padding: 10px 20px;
-            border-radius: 25px;
-            text-decoration: none;
-            color: black;
-            font-weight: bold;
-            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
-        }
-
-        .consultas-btn .fas {
-            margin-right: 10px;
-        }
-
-        /* .fab.fa-linkedin { */
-        #linkedin {
-            color: #0077B5;
-            /* LinkedIn color */
-        }
-
-        #instagram {
-            color: #E4405F;
-            /* Instagram color */
-        }
-
-        #facebook {
-            color: #1877F2;
-            /* Facebook color */
-        }
-
-        #whatsapp {
-            color: #25D366;
-            /* WhatsApp color */
-        }
-
-        .btn-animate:hover {
-            transition: all 0.5s ease-in-out;
-            animation: bounce 1.6s infinite;
-        }
-
-        @keyframes bounce {
-
-            0%,
-            20%,
-            50%,
-            80%,
-            100% {
-                transform: translateY(0);
-            }
-
-            40% {
-                transform: translateY(-5px);
-            }
-
-            60% {
-                transform: translateY(-5px);
-            }
-        }
+      }
     </style>
 
-
-
     <div class="contenedor-general">
-        <div id="social-buttons" class="fixed-bottom-right">
-            <a href="https://www.linkedin.com/" target="_blank" class="social-btn btn-animate"><i id="linkedin"
-                    class="fab fa-linkedin"></i></a>
-            <a href="https://www.instagram.com/constructora_group_wasichay/" target="_blank"
-                class="social-btn btn-animate"><i id="instagram" class="fab fa-instagram"></i></a>
-            <a href="https://www.facebook.com/profile.php?id=61553256385301" target="_blank"
-                class="social-btn btn-animate"><i id="facebook" class="fab fa-facebook-f"></i></a>
-            <a href="https://wa.link/u1i0pp" target="_blank" class="social-btn btn-animate"><i id="whatsapp"
-                    class="fab fa-whatsapp"></i></a>
-            <button id="chatbot-btn" onclick="openChatbot()" aria-label="Abrir Chatbot" class="principal consultas-btn">
-                <i class="fas fa-comment-dots"></i> CONSULTAS
-            </button>
-
-        </div>
+      <div id="social-buttons" class="fixed-bottom-right">
+        <a
+          href="https://www.linkedin.com/"
+          target="_blank"
+          class="social-btn btn-animate"
+          ><i id="linkedin" class="fab fa-linkedin"></i
+        ></a>
+        <a
+          href="https://www.instagram.com/constructora_group_wasichay/"
+          target="_blank"
+          class="social-btn btn-animate"
+          ><i id="instagram" class="fab fa-instagram"></i
+        ></a>
+        <a
+          href="https://www.facebook.com/profile.php?id=61553256385301"
+          target="_blank"
+          class="social-btn btn-animate"
+          ><i id="facebook" class="fab fa-facebook-f"></i
+        ></a>
+        <a
+          href="https://wa.link/u1i0pp"
+          target="_blank"
+          class="social-btn btn-animate"
+          ><i id="whatsapp" class="fab fa-whatsapp"></i
+        ></a>
+        <button
+          id="chatbot-btn"
+          onclick="openChatbot()"
+          aria-label="Abrir Chatbot"
+          class="principal consultas-btn"
+        >
+          <i class="fas fa-comment-dots"></i> CONSULTAS
+        </button>
+      </div>
     </div>
-
-
-
-
-
-
 
     <div id="root"></div>
     <script type="module" src="/src/main.jsx"></script>
@@ -166,7 +190,5 @@
 
     <!-- Bootstrap Bundle Js -->
     <script src="assets/js/bootstrap.bundle.min.js"></script>
-
-</body>
-
+  </body>
 </html>

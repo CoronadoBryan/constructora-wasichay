@@ -84,25 +84,16 @@ export const navMenus = [
   {
     text: "Nosotros",
     path: "/about-us",
+    submenus: [
+      {
+        text: "Preguntas y Respuestas",
+        path: "/faq",
+      },
+    ],
   },
   {
     text: "Cursos",
     path: "/property",
-    //   submenus: [
-    // {
-    //     text: "Property",
-    //     path: "/property",
-    // },
-    // {
-    //     text: "Property Sidebar",
-    //     path: "/property-sidebar",
-    // },
-    // {
-    //     text: "Add New Listing",
-    //     path: "/add-new-listing",
-    // },
-
-    //   ],
   },
   {
     text: "Proyectos",
@@ -115,16 +106,6 @@ export const navMenus = [
   {
     text: "Contacto",
     path: "/contact",
-    submenus: [
-      {
-        text: "Mapa de Ubicación",
-        path: "/map-location",
-      },
-      {
-        text: "Preguntas y Respuestas",
-        path: "/faq",
-      },
-    ],
   },
 ];
 
@@ -144,23 +125,23 @@ export const footerInfos = [
 
 export const footerServiceLinks = [
   {
-    text: "Reliable Rentals",
+    text: "Servicio 1",
     link: "/property",
   },
   {
-    text: "Golden Key Properties",
+    text: "Servicio 2",
     link: "/property",
   },
   {
-    text: "Swift Home Sales",
+    text: "Servicio 3",
     link: "/property",
   },
   {
-    text: "Elite Realty Services",
+    text: "Servicio 4",
     link: "/property",
   },
   {
-    text: "Dream Property Solutions",
+    text: "Servicio 5",
     link: "/property",
   },
 ];
@@ -189,6 +170,10 @@ export const footerUsefulLinks = [
   {
     text: "Contacto",
     link: "/contact",
+  },
+  {
+    text: "Preguntas y Respuestas",
+    link: "/faq",
   },
 ];
 

@@ -9,7 +9,7 @@ const CourseItem = ({ course, onLearnMore }) => {
             <div className="course-content" style={courseContentStyle}>
                 <h3 style={courseTitleStyle}>{course.title}</h3>
                 <p style={courseDescriptionStyle}>{course.description}</p>
-                <button style={courseButtonStyle} onClick={() => onLearnMore(course)}>Learn More</button>
+                <button style={courseButtonStyle} onClick={() => onLearnMore(course)}>Leer Más</button>
             </div>
         </div>
     );
@@ -45,7 +45,7 @@ const courseDescriptionStyle = {
 };
 
 const courseButtonStyle = {
-    backgroundColor: '#007BFF',
+    backgroundColor: '#F48421',
     color: '#fff',
     border: 'none',
     padding: '10px 20px',
