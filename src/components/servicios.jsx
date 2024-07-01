@@ -1,0 +1,41 @@
+import React from 'react';
+import SectionHeading from '../common/SectionHeading';
+import { serviciosData } from '../data/HomeThreeData/HomeThreeData';
+import PropertyTypeThreeItem from './items/PropertyTypeThreeItem';
+
+const servicios = () => {
+    return (
+        <>
+            <section className="property-type-three padding-t-120 padding-b-60">
+                <div className="container container-two">
+
+                    <SectionHeading
+                        headingClass="style-left"  
+                        subtitle="MISIÓN | VISIÓN | VALORES"
+                        subtitleClass="bg-white" 
+                        title="Nuestra Empresa" 
+                        renderDesc={false}
+                        desc="Real estate is a lucrative industry that involves the buying selling and renting of properties. It encompasses residential commercial and industrial properties Real estate agents play a crucial role in facilitating real estate"
+                        renderButton={false}
+                        buttonClass="btn-main"
+                        buttonText="View More"
+                    />
+                    
+                    <div className="row gy-4">
+                        {
+                            serviciosData.map((propertyTypeItem, index) => {
+                                return (
+                                    <div className="col-xl-4 col-sm-6 col-xs-6" key={index}>
+                                        <PropertyTypeThreeItem propertyTypeItem={propertyTypeItem} />
+                                    </div>
+                                )
+                            })
+                        }
+                    </div>
+                </div>
+            </section>   
+        </>
+    );
+};
+
+export default servicios;

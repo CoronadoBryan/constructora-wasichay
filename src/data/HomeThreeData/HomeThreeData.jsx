@@ -85,6 +85,7 @@ export const propertyThreeTypes = [
 ]
 
 
+
 // Property Two Tabs
 export const propertyTwoTabs = [ 
     {

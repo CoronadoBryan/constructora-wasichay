@@ -5,9 +5,9 @@ import OffCanvas from '../common/OffCanvas';
 import BannerThree from '../components/BannerThree';
 import AboutThree from './../components/AboutThree';
 import MessageThree from '../components/MessageThree';
-import TestimonialThree from '../components/TestimonialThree';
+// import TestimonialThree from '../components/TestimonialThree';
 import PageTitle from '../common/PageTitle';
-import PropertyTypeThree from '../components/PropertyTypeThree';
+// import PropertyTypeThree from '../components/PropertyTypeThree';
 import ContenedorNumeros  from '../components/ContenedorNumeros';
 import VideoPopup  from '../components/VideoPopup';
 
