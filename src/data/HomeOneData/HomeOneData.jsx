@@ -446,7 +446,7 @@ export const testimonials = [
   },
   {
     name: "Pedro Sanchez",
-    desc: 'La precisión y rapidez del equipo de topografía fueron excepcionales. Gracias a su trabajo, pudimos avanzar en nuestro proyecto sin contratiempos y con total confianza en los datos proporcionados.',
+    desc: "La precisión y rapidez del equipo de topografía fueron excepcionales. Gracias a su trabajo, pudimos avanzar en nuestro proyecto sin contratiempos y con total confianza en los datos proporcionados.",
     quote: quoteIcon,
   },
 ];

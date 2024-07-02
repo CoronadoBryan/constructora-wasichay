@@ -11,7 +11,7 @@ import MobileMenu from "../common/MobileMenu";
 const Contact = () => {
   return (
     <>
-      <PageTitle title="Grupo Wasichay - Contáctanos" />
+      <PageTitle title="Grupo Wasichay - Contacto" />
       <OffCanvas />
       <MobileMenu />
       <main className="body-bg">

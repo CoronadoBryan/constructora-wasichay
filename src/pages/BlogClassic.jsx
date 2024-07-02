@@ -9,7 +9,7 @@ import MobileMenu from '../common/MobileMenu';
 const BlogClassic = () => {
     return (
         <>
-        <PageTitle title="Wasichay - Blog Classic" />
+        <PageTitle title="Wasichay - Blog " />
         <OffCanvas/>
         <MobileMenu/>
             {/* Header */}

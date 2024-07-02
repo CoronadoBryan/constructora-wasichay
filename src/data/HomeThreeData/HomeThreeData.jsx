@@ -108,6 +108,7 @@ export const propertyTwoTabs = [
 
 // Message Three Data
 import messageThreeIcon from '../../../public/assets/images/icons/customer-service.svg'; 
+
 export const messageThreeContents = {
     icon: messageThreeIcon,
     text: 'Ayuda 24/7',

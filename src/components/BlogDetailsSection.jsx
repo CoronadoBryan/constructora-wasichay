@@ -24,7 +24,7 @@ const BlogDetailsSection = () => {
           <div className="col-lg-8">
             <div className="blog-details">
               <div className="blog-details__thumb">
-                <img src={location.state.thumb} alt=""  className="cover-img" />
+                <img src={location.state.thumb} alt="" className="cover-img" />
                 <span className="blog-details__date">{formattedDate}</span>
               </div>
               <div className="blog-details__content">
@@ -112,14 +112,13 @@ const BlogDetailsSection = () => {
               {/* Blog Next Prev End */}
 
               {/* Blog Keyword Start */}
-              <BlogKeyword/>
+              <BlogKeyword />
               {/* Blog Keyword End */}
 
               {/* Comment Start */}
               {/* <Comment/> */}
               {/* Comment End */}
 
-             
               {/* <CommentForm/> */}
             </div>
           </div>

@@ -20,19 +20,19 @@ export const offCanvasInfos = [
 // Social List
 export const socialLists = [
   {
-    link: "https://www.facebook.com",
+    link: "https://www.facebook.com/profile.php?id=61553256385301",
     icon: <i className="fab fa-facebook-f"></i>,
   },
   {
-    link: "https://www.twitter.com",
+    link: "https://x.com/GroupWasichay",
     icon: <i className="fab fa-twitter"></i>,
   },
   {
-    link: "https://www.linkedin.com",
+    link: "", //cambiar link de linkedin
     icon: <i className="fab fa-linkedin-in"></i>,
   },
   {
-    link: "https://www.pinterest.com",
+    link: "https://www.instagram.com/constructora_group_wasichay/",
     icon: <i className="fab fa-instagram"></i>,
   },
 ];
@@ -195,32 +195,32 @@ export const footerUsefulLinks = [
 export const footerGallery = [
   {
     img: "https://i.ibb.co/KxwLYmb/galeria1.jpg",
-    link: "https://www.instagram.com",
+    link: "https://www.instagram.com/constructora_group_wasichay/",
     icon: <i className="fab fa-instagram"></i>,
   },
   {
     img: "https://i.ibb.co/hCdw4Cz/galeria2.jpg",
-    link: "https://www.instagram.com",
+    link: "https://www.instagram.com/constructora_group_wasichay/",
     icon: <i className="fab fa-instagram"></i>,
   },
   {
     img: "https://i.ibb.co/vqnm15x/galeria3.jpg",
-    link: "https://www.instagram.com",
+    link: "https://www.instagram.com/constructora_group_wasichay/",
     icon: <i className="fab fa-instagram"></i>,
   },
   {
     img: "https://i.ibb.co/0yKvsZY/galeria4.jpg",
-    link: "https://www.instagram.com",
+    link: "https://www.instagram.com/constructora_group_wasichay/",
     icon: <i className="fab fa-instagram"></i>,
   },
   {
     img: "https://i.ibb.co/mbWStTL/galeria5.jpg",
-    link: "https://www.instagram.com",
+    link: "https://www.instagram.com/constructora_group_wasichay/",
     icon: <i className="fab fa-instagram"></i>,
   },
   {
     img: "https://i.ibb.co/CwWbvbC/galeria8-v.jpg",
-    link: "https://www.instagram.com",
+    link: "https://www.instagram.com/constructora_group_wasichay/",
     icon: <i className="fab fa-instagram"></i>,
   },
 ];

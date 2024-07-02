@@ -9,51 +9,49 @@ import CounterThree from '../components/CounterThree';
 import PageTitle from '../common/PageTitle';
 import OffCanvas from '../common/OffCanvas';
 import MobileMenu from '../common/MobileMenu';
+import ContactUsSection from '../components/ContactUsSection';
 
 const FaqPage = () => {
-    return (
-        <>
-        <PageTitle title="Wasichay - Frequently Ask Question" />
-        <OffCanvas/>
-        <MobileMenu/>
-            {/* Header */}
-            <Header 
-                headerClass="dark-header has-border" 
-                logoBlack={false}
-                logoWhite={true}
-                headerMenusClass="mx-auto"
-                btnClass="btn btn-outline-main btn-outline-main-dark d-lg-block d-none"
-                btnLink="/add-new-listing"
-                btnText="Add Listing"
-                spanClass="icon-right text-gradient" 
-                showHeaderBtn={true}
-                showOffCanvasBtn={false}
-                offCanvasBtnClass=""
-                showContactNumber={false}
-            />
+  return (
+    <>
+      <PageTitle title="Wasichay - Preguntas Frecuentes" />
+      <OffCanvas />
+      <MobileMenu />
+      {/* Header */}
+      <Header
+        headerClass="dark-header has-border"
+        logoBlack={false}
+        logoWhite={true}
+        headerMenusClass="mx-auto"
+        btnClass="btn btn-outline-main btn-outline-main-dark d-lg-block d-none"
+        btnLink="/add-new-listing"
+        btnText="Add Listing"
+        spanClass="icon-right text-gradient"
+        showHeaderBtn={true}
+        showOffCanvasBtn={false}
+        offCanvasBtnClass=""
+        showContactNumber={false}
+      />
 
-            {/* BreadCrumb */}
-            <Breadcrumb 
-                pageTitle="FAQ"
-                pageName="FAQ"
-            />
+      {/* BreadCrumb */}
+      <Breadcrumb pageTitle="FAQ" pageName="FAQ" />
 
-            {/* Faq Two */}
-            <FaqTwo/>
+      {/* Faq Two */}
+      <FaqTwo />
 
             {/* Faq Contact Us */}
             <FaqContactUs/>
 
-            {/* Counter Four */}
-            <CounterThree/>
-            
-            {/* Cta */}
-            <Cta ctaClass=""/>
+      {/* Counter Four */}
+      <CounterThree />
 
-            {/* Footer */}
-            <Footer/>
-        </>
-    );
+      {/* Cta */}
+      <Cta ctaClass="" />
+
+      {/* Footer */}
+      <Footer />
+    </>
+  );
 };
 
 export default FaqPage;
