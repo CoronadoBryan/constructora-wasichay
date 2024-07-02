@@ -11,6 +11,8 @@ import PropertyTypeThree from "../components/PropertyTypeThree";
 import ContenedorNumeros from "../components/ContenedorNumeros";
 import VideoPopup from "../components/VideoPopup";
 
+import ServiceSection from "../components/ServiceSection";
+
 const HomeThree = () => {
   return (
     <>
@@ -42,9 +44,9 @@ const HomeThree = () => {
         {/* About Three */}
         <AboutThree />
 
-
-        
         <VideoPopup />
+
+        <ServiceSection />
 
         {/* Property Type Three */}
         {/* <PropertyTypeThree/> */}
