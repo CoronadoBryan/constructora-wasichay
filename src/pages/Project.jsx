@@ -2,7 +2,7 @@ import React from "react";
 import Header from "../common/Header";
 import Footer from "../common/Footer";
 import Breadcrumb from "../common/Breadcrumb";
-import Cta from "../components/Cta";
+
 import ProjectSection from "../components/ProjectSection";
 import PageTitle from "../common/PageTitle";
 import OffCanvas from "../common/OffCanvas";
@@ -36,8 +36,7 @@ const Project = () => {
         {/* Project Section */}
         <ProjectSection />
 
-        {/* Cta */}
-        <Cta ctaClass="" />
+       
 
         {/* Footer */}
         <Footer />

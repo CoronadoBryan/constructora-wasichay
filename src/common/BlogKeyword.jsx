@@ -21,7 +21,7 @@ const BlogKeyword = () => {
                         </Link>
                     </li>
                     <li className="social-list__item">
-                        <Link to="https://www.linkedin.com" className="social-list__link flx-center text-linkedin"> <i className="fab fa-linkedin"></i>
+                        <Link to="https://www.linkedin.com/in/constructora-e-inversiones-group-wasichay-80533929a/" className="social-list__link flx-center text-linkedin"> <i className="fab fa-linkedin"></i>
                         </Link>
                     </li>
                 </ul>

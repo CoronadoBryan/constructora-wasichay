@@ -27,7 +27,7 @@ const Faq = () => {
                         </div>
                         <div className="col-lg-6  d-lg-block d-none">
                             <div className="faq-thumb">
-                                <img src="https://i.ibb.co/zbQr2yp/istockphoto-850824032-612x612.jpg" alt="Image"/>
+                                <img src="https://i.ibb.co/hCdw4Cz/galeria2.jpg" alt="Image"/>
                             </div>
                         </div>
                     </div>

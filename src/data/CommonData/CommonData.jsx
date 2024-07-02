@@ -28,7 +28,7 @@ export const socialLists = [
     icon: <i className="fab fa-twitter"></i>,
   },
   {
-    link: "", //cambiar link de linkedin
+    link: "https://www.linkedin.com/in/constructora-e-inversiones-group-wasichay-80533929a/",
     icon: <i className="fab fa-linkedin-in"></i>,
   },
   {

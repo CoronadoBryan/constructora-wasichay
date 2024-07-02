@@ -2,10 +2,7 @@ import React from "react";
 import Header from "../common/Header";
 import Footer from "../common/Footer";
 import Breadcrumb from "../common/Breadcrumb";
-import PropertyPageSection from "../components/PropertyPageSection";
-import Cta from "../components/Cta";
 import PageTitle from "../common/PageTitle";
-
 import CoursePageSection from "../components/CoursePageSection";
 import OffCanvas from "../common/OffCanvas";
 import MobileMenu from "../common/MobileMenu";
@@ -33,18 +30,12 @@ const Property = () => {
           showContactNumber={false}
         />
 
-        {/* BreadCrumb */}
+       
         <Breadcrumb pageTitle="Cursos" pageName="Cursos" />
-
-        {/* Property Page Section */}
-        {/* <PropertyPageSection/> */}
 
         <CoursePageSection />
 
-        {/* Cta */}
-        <Cta ctaClass="" />
-
-        {/* Footer */}
+    
         <Footer />
       </main>
     </>
