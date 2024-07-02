@@ -210,7 +210,7 @@ export const properties = [
     thumb: propertyThumb7,
     price: "$350.00",
     day: "/per day",
-    title: "Guiding You Home with Experience",
+    title: "Guiding You Home dsadsa Experience",
     desc: "Real Estate is a vast industry that deals with the buying, selling, and renting of properties. It inv transactions related to residential, commercial, and industrial properties. Aliquam eros justo, posuere loborti viverra laoreet matti ullamcorper posuere viverra .Aliquam eros justo, posuere lobortis viverra laoreet augue mattis fmentum ullamcorper viverra laoreet Aliquam eros justo, posuere lobor mattis fmentum ullam",
     locationIcon: <i className="fas fa-map-marker-alt"></i>,
     location: "66 Broklyant, New York America",

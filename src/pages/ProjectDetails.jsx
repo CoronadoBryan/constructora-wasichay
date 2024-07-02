@@ -6,6 +6,8 @@ import Cta from '../components/Cta';
 import ProjectDetailsSection from '../components/ProjectDetailsSection';
 import { useParams } from 'react-router-dom';
 import PageTitle from '../common/PageTitle';
+import OffCanvas from '../common/OffCanvas';
+import MobileMenu from '../common/MobileMenu';
 
 const ProjectDetails = () => {
 
@@ -14,7 +16,8 @@ const ProjectDetails = () => {
     return (
         <>
         <PageTitle title="Wasichay - Project Details" />
-
+<OffCanvas />
+<MobileMenu />
         <main className="body-bg">
             
             {/* Header */}

@@ -13,11 +13,11 @@ const BlogKeyword = () => {
                 </div>
                 <ul className="social-list style-two mt-0">
                     <li className="social-list__item">
-                        <Link to="https://www.facebook.com" className="social-list__link flx-center text-facebook"><i className="fab fa-facebook"></i>
+                        <Link to="https://www.facebook.com/people/Constructora-Wasichay/61553256385301/" className="social-list__link flx-center text-facebook"><i className="fab fa-facebook"></i>
                         </Link>
                     </li>
                     <li className="social-list__item">
-                        <Link to="https://www.pinterest.com" className="social-list__link flx-center text-pinterest"><i className="fab fa-pinterest"></i>
+                        <Link to="https://www.instagram.com/constructora_group_wasichay/" className="social-list__link flx-center text-pinterest"><i className="fab fa-instagram"></i>
                         </Link>
                     </li>
                     <li className="social-list__item">

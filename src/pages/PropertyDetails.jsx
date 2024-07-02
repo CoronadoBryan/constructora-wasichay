@@ -1,52 +1,51 @@
-import React from 'react';
-import Header from '../common/Header';
-import Footer from '../common/Footer';
-import Breadcrumb from '../common/Breadcrumb';
-import Cta from '../components/Cta';
-import PropertyDetailsSection from '../components/PropertyDetailsSection';
-import { useParams } from 'react-router-dom';
-import PageTitle from '../common/PageTitle';
+import React from "react";
+import Header from "../common/Header";
+import Footer from "../common/Footer";
+import Breadcrumb from "../common/Breadcrumb";
+import Cta from "../components/Cta";
+import PropertyDetailsSection from "../components/PropertyDetailsSection";
+import { useParams } from "react-router-dom";
+import PageTitle from "../common/PageTitle";
+import OffCanvas from "../common/OffCanvas";
+import MobileMenu from "../common/MobileMenu";
 
 const PropertyDetails = () => {
+  const { title } = useParams();
 
-    const {title} = useParams(); 
-    
-    return (
-        <>
-        <PageTitle title="Wasichay - Detalles del Curso" />
+  return (
+    <>
+      <PageTitle title="Wasichay - Detalles del Curso" />
+      <OffCanvas />
+      <MobileMenu />
+      {/* Header */}
+      <Header
+        headerClass="dark-header has-border"
+        logoBlack={false}
+        logoWhite={true}
+        headerMenusClass="mx-auto"
+        btnClass="btn btn-outline-main btn-outline-main-dark d-lg-block d-none"
+        btnLink="/add-new-listing"
+        btnText="Add Listing"
+        spanClass="icon-right text-gradient"
+        showHeaderBtn={true}
+        showOffCanvasBtn={false}
+        offCanvasBtnClass=""
+        showContactNumber={false}
+      />
 
-            {/* Header */}
-            <Header 
-                headerClass="dark-header has-border" 
-                logoBlack={false}
-                logoWhite={true}
-                headerMenusClass="mx-auto"
-                btnClass="btn btn-outline-main btn-outline-main-dark d-lg-block d-none"
-                btnLink="/add-new-listing"
-                btnText="Add Listing"
-                spanClass="icon-right text-gradient" 
-                showHeaderBtn={true}
-                showOffCanvasBtn={false}
-                offCanvasBtnClass=""
-                showContactNumber={false}
-            />
+      {/* BreadCrumb */}
+      <Breadcrumb pageTitle="Property Details" pageName={title} />
 
-            {/* BreadCrumb */}
-            <Breadcrumb 
-                pageTitle="Property Details"
-                pageName={title}
-            />
+      {/* Property Details Section */}
+      <PropertyDetailsSection />
 
-            {/* Property Details Section */}
-            <PropertyDetailsSection/>
+      {/* Cta */}
+      <Cta ctaClass="" />
 
-            {/* Cta */}
-            <Cta ctaClass=""/>
-
-            {/* Footer */}
-            <Footer/>
-        </>
-    );
+      {/* Footer */}
+      <Footer />
+    </>
+  );
 };
 
 export default PropertyDetails;

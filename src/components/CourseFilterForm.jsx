@@ -18,7 +18,7 @@ const CourseFilterForm = ({ filter, setFilter }) => {
         <form style={filterFormStyle} onSubmit={handleSubmit}>
             <input
                 type="text"
-                placeholder="Search courses..."
+                placeholder="Buscar cursos ..."
                 style={filterInputStyle}
                 value={filter.search}
                 onChange={handleInputChange}
@@ -30,7 +30,7 @@ const CourseFilterForm = ({ filter, setFilter }) => {
                 <option value="station">Estación Total</option>
                 <option value="autocad">AutoDesk</option>
             </select>
-            <button type="submit" style={filterButtonStyle}>Filter</button>
+            <button type="submit" style={filterButtonStyle}>Filtro</button>
         </form>
     );
 };
@@ -56,7 +56,7 @@ const filterSelectStyle = {
 };
 
 const filterButtonStyle = {
-    backgroundColor: '#007BFF',
+    backgroundColor: '#F48421',
     color: '#fff',
     border: 'none',
     padding: '10px 20px',

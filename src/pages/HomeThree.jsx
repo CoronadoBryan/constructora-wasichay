@@ -26,7 +26,7 @@ const HomeThree = () => {
           logoWhite={false}
           headerMenusClass="ms-auto menu-right"
           btnClass="btn btn-main  d-lg-block d-none"
-          btnLink="https://api.whatsapp.com/send?phone=51922672095&text=Buenos%20d%C3%ADas%2C%20este%20es%20un%20texto%20completamente%20personalizable."
+          btnLink="https://api.whatsapp.com/send?phone=51935681025&text=%C2%A1Hola!%20Buen%20d%C3%ADa%20%F0%9F%98%8A%2C%20quisiera%20saber%20mas%20informaci%C3%B3n%20a%20cerca%20de%20los%20servicios%20Topogr%C3%A1ficos%20que%20ofrece."
           btnText="Contactar"
           spanClass="icon-right"
           showHeaderBtn={true}

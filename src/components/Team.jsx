@@ -12,7 +12,7 @@ const Team = () => {
             headingClass=""
             subtitle="Nuestros Clientes"
             subtitleClass=""
-             title="Experiencia y Excelencia en Soluciones de Construcción"
+            title="Experiencia y Excelencia en Soluciones de Construcción"
             renderDesc={false}
             desc=""
             renderButton={false}

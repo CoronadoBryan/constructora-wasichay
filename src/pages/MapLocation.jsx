@@ -9,7 +9,7 @@ import PageTitle from '../common/PageTitle';
 const MapLocation = () => {
     return (
         <>
-        <PageTitle title="Wasichay - Map Location" />
+        <PageTitle title="Wasichay - Todas nuestras Sedes" />
 
         <main className="body-bg">
             
@@ -31,11 +31,11 @@ const MapLocation = () => {
 
             {/* BreadCrumb */}
             <Breadcrumb 
-                pageTitle="Map Location"
-                pageName="Map Location"
+                pageTitle=" Todas nuestras Sedes"
+                pageName=" Todas nuestras Sedes"
             />
 
-            {/* Map Location  */}
+           
             <MapLocationSection/>
 
             {/* Cta */}
