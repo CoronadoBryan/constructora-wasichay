@@ -1,23 +1,27 @@
 import React from 'react';
 import './estilosComponentes/Servicios.css';
+import '../../public/assets/Icons/style.css';
 
 const ServiceItem = ({ service, onLearnMore }) => {
+    const handleTitleClick = (e) => {
+        e.preventDefault();
+    };
+
     return (
-        <div className="service-items-box-two p-3 rounded d-flex flex-column" onClick={() => onLearnMore(service)}>
-            <div className="d-flex align-items-center mb-3">
-                <div className="service-icon-thumb flex-shrink-0">
-                    <img src={service.iconSrc} alt={service.iconAlt} />
+        <div className="service-items-box-two p-3 rounded d-flex flex-column h-100" onClick={() => onLearnMore(service)}>
+            <div className="d-flex flex-column align-items-center">
+                <div className="service-icon-thumb">
+                    <i className={`icon ${service.iconClass}`}></i>
                 </div>
-                <div className="service-items-title ms-3">
-                    <h4><a href="#">{service.title}</a></h4>
+                <div className="service-items-title">
+                    <h4><a href="#" onClick={handleTitleClick}>{service.title}</a></h4>
                 </div>
             </div>
-            <div className="service-items-content-two flex-grow-1">
+            <div className="service-items-content-two">
                 <p>{service.description}</p>
             </div>
             <div className="service-items-thumb-two position-relative">
-                <img src={service.thumbSrc} alt={service.thumbAlt} className="img-fluid rounded" />
-                <div className="service-items-icon-two position-absolute top-0 end-0 me-3 mt-n3">
+                <div className="service-items-icon-two">
                     <i className="fas fa-search"></i>
                 </div>
             </div>

@@ -30,9 +30,15 @@
     background: #FFF;
     box-shadow: 0px 4px 60px 0px rgba(139, 139, 139, 0.15);
     padding: 22px 16px 20px;
-    display: inline-block;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     position: relative;
     z-index: 1;
+    height: 100%;
+    /* Asegura que todos los cuadros tengan la misma altura */
+    min-height: 300px;
+    /* Ajustar según sea necesario */
 }
 
 .service-items-box-two::before {
@@ -54,18 +60,23 @@
 }
 
 .service-icon-thumb {
-    float: left;
-    margin-right: 20px;
-    margin-top: 6px;
     background: var(--black, #18191D);
-    height: 70px;
-    width: 70px;
+    height: 120px;
+    width: 120px;
     line-height: 70px;
     text-align: center;
     border-radius: 5px;
     position: relative;
     z-index: 1;
     overflow: hidden;
+    flex-shrink: 0;
+    /* Previene que el cuadro cambie de tamaño */
+    margin-bottom: 20px;
+    /* Espacio entre el icono y el título */
+    margin-right: auto;
+    /* Centra el icono horizontalmente */
+    margin-left: auto;
+    /* Centra el icono horizontalmente */
 }
 
 .service-icon-thumb::before {
@@ -96,15 +107,31 @@
     filter: brightness(0) invert(1);
 }
 
+.service-items-title {
+    height: 50px;
+    /* Altura fija para el título */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    /* Centra el texto del título */
+}
+
+.service-items-title h4 {
+    margin: 0;
+}
+
 .service-items-title h4 a {
     color: var(--black, #18191D);
     font-size: 22px;
     font-weight: 500;
-    line-height: 30px;
+    line-height: 1.2;
+    /* Ajusta la altura de la línea para mejor alineación */
     text-decoration: none;
 }
 
-.service-items-content-two p {
+.service-items-content-two {
+    flex-grow: 1;
     color: var(--secondery, #666);
     font-size: 16px;
     font-weight: 400;
@@ -114,11 +141,16 @@
 
 .service-items-thumb-two {
     position: relative;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    padding-bottom: 20px;
+    /* Añade espacio hacia abajo */
 }
 
 .service-items-icon-two {
     position: absolute;
-    top: -20px;
+    bottom: 20px;
     right: 16px;
 }
 
@@ -178,4 +210,14 @@
     font-size: 18px;
     font-weight: 400;
     text-decoration-line: underline;
+}
+
+/* Estilo de los iconos */
+.icon {
+    position: absolute;
+    font-size: 120px;
+    color: black;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }

@@ -100,6 +100,10 @@ export const navMenus = [
     path: "/project",
   },
   {
+    text: "Servicios",
+    path: "/services",
+  },
+  {
     text: "Blog",
     path: "/blog",
   },
