@@ -106,9 +106,6 @@ export const navMenus = [
   {
     text: "Contacto",
     path: "/contact",
-  },{
-    text:"prubea",
-    path:"/property"
   }
 ];
 
