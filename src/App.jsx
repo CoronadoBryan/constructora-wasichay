@@ -18,7 +18,7 @@ import BlogClassic from './pages/BlogClassic';
 import BlogDetails from './pages/BlogDetails';
 import Contact from './pages/Contact';
 import NotFound from './pages/NotFound';
-
+import Servicies from './pages/Services';
 function App() {
 
 
@@ -68,6 +68,7 @@ function App() {
             <Route path="/blog/:title" element={<BlogDetails />} />
             <Route path="/contact" element={<Contact />} />
             <Route path="*" element={<NotFound />} />
+            <Route path="/services" element={<Servicies />} />
           </Routes>
         </Wrapper>
       </BrowserRouter>

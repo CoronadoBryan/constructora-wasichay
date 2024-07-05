@@ -46,8 +46,6 @@ const HomeThree = () => {
 
         <VideoPopup />
 
-        <ServiceSection />
-
         {/* Property Type Three */}
         {/* <PropertyTypeThree/> */}
 
