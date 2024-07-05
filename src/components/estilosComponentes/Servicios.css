@@ -1,13 +1,14 @@
-.section-shape {
+/* Estilos para la sección de servicios */
+.service-section .section-shape {
     margin-right: 15px;
     display: inline-block;
 }
 
-.section-sub-title {
+.service-section .section-sub-title {
     display: inline-block;
 }
 
-.section-sub-title h4 {
+.service-section .section-sub-title h4 {
     font-size: 22px;
     color: #F60;
     font-weight: 500;
@@ -16,17 +17,17 @@
     margin-bottom: 16px;
 }
 
-.section-main-title {
+.service-section .section-main-title {
     margin-bottom: 62px;
 }
 
-.section-main-title h2 {
+.service-section .section-main-title h2 {
     font-size: 45px;
     font-weight: 500;
     line-height: 44px;
 }
 
-.service-items-box-two {
+.service-section .service-items-box-two {
     background: #FFF;
     box-shadow: 0px 4px 60px 0px rgba(139, 139, 139, 0.15);
     padding: 22px 16px 20px;
@@ -36,12 +37,10 @@
     position: relative;
     z-index: 1;
     height: 100%;
-    /* Asegura que todos los cuadros tengan la misma altura */
     min-height: 300px;
-    /* Ajustar según sea necesario */
 }
 
-.service-items-box-two::before {
+.service-section .service-items-box-two::before {
     position: absolute;
     content: "";
     height: 3px;
@@ -55,11 +54,11 @@
     transition: .5s;
 }
 
-.service-items-box-two:hover::before {
+.service-section .service-items-box-two:hover::before {
     width: 100%;
 }
 
-.service-icon-thumb {
+.service-section .service-icon-thumb {
     background: var(--black, #18191D);
     height: 120px;
     width: 120px;
@@ -70,16 +69,12 @@
     z-index: 1;
     overflow: hidden;
     flex-shrink: 0;
-    /* Previene que el cuadro cambie de tamaño */
     margin-bottom: 20px;
-    /* Espacio entre el icono y el título */
     margin-right: auto;
-    /* Centra el icono horizontalmente */
     margin-left: auto;
-    /* Centra el icono horizontalmente */
 }
 
-.service-icon-thumb::before {
+.service-section .service-icon-thumb::before {
     position: absolute;
     content: "";
     width: 100%;
@@ -95,42 +90,39 @@
     transition: .5s;
 }
 
-.service-items-box-two:hover .service-icon-thumb::before {
+.service-section .service-items-box-two:hover .service-icon-thumb::before {
     transform: scale(1.1);
 }
 
-.service-icon-thumb img {
+.service-section .service-icon-thumb img {
     transition: .5s;
 }
 
-.service-items-box-two:hover .service-icon-thumb img {
+.service-section .service-items-box-two:hover .service-icon-thumb img {
     filter: brightness(0) invert(1);
 }
 
-.service-items-title {
+.service-section .service-items-title {
     height: 50px;
-    /* Altura fija para el título */
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
-    /* Centra el texto del título */
 }
 
-.service-items-title h4 {
+.service-section .service-items-title h4 {
     margin: 0;
 }
 
-.service-items-title h4 a {
+.service-section .service-items-title h4 a {
     color: var(--black, #18191D);
     font-size: 22px;
     font-weight: 500;
     line-height: 1.2;
-    /* Ajusta la altura de la línea para mejor alineación */
     text-decoration: none;
 }
 
-.service-items-content-two {
+.service-section .service-items-content-two {
     flex-grow: 1;
     color: var(--secondery, #666);
     font-size: 16px;
@@ -139,22 +131,21 @@
     margin: 26px 0 22px;
 }
 
-.service-items-thumb-two {
+.service-section .service-items-thumb-two {
     position: relative;
     display: flex;
     justify-content: flex-end;
     align-items: flex-end;
     padding-bottom: 20px;
-    /* Añade espacio hacia abajo */
 }
 
-.service-items-icon-two {
+.service-section .service-items-icon-two {
     position: absolute;
     bottom: 20px;
     right: 16px;
 }
 
-.service-items-icon-two i {
+.service-section .service-items-icon-two i {
     height: 40px;
     width: 40px;
     background: #F60;
@@ -170,11 +161,11 @@
     transition: .5s;
 }
 
-.service-items-box-two:hover .service-items-icon-two i {
+.service-section .service-items-box-two:hover .service-items-icon-two i {
     transform: rotate(0);
 }
 
-.service-items-icon-two i::after {
+.service-section .service-items-icon-two i::after {
     position: absolute;
     content: "";
     width: 100%;
@@ -190,22 +181,22 @@
     transition: .5s;
 }
 
-.service-items-box-two:hover .service-items-icon-two i::after {
+.service-section .service-items-box-two:hover .service-items-icon-two i::after {
     transform: scale(1.1);
 }
 
-.service-disctription {
+.service-section .service-disctription {
     text-align: right;
 }
 
-.service-disctription span {
+.service-section .service-disctription span {
     color: #18191D;
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
 }
 
-.service-disctription span a {
+.service-section .service-disctription span a {
     color: #F60;
     font-size: 18px;
     font-weight: 400;
@@ -213,7 +204,7 @@
 }
 
 /* Estilo de los iconos */
-.icon {
+.service-section .icon {
     position: absolute;
     font-size: 120px;
     color: black;
