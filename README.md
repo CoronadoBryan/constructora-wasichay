@@ -2,7 +2,7 @@
 
 ¡pagina  para **GROUP WASICHAY**!  Empresa dedicada a construir tus sueños con la más alta calidad y profesionalismo.
 
-![Wasichay Constructora](https://i.ibb.co/yWQ3McH/Captura-de-pantalla-2024-07-27-112513.png) <!-- Reemplaza esto con la URL de tu imagen -->
+![Wasichay Constructora](https://i.ibb.co/yWQ3McH/Captura-de-pantalla-2024-07-27-112513.png)
 
 ## 🚀 Descripción del Proyecto
 
