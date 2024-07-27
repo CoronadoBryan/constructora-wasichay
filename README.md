@@ -2,7 +2,7 @@
 
 ¡pagina  para **GROUP WASICHAY**!  Empresa dedicada a construir tus sueños con la más alta calidad y profesionalismo.
 
-<a href="https://ibb.co/867hRL1"><img src="https://i.ibb.co/bzKfyMc/Captura-de-pantalla-2024-07-27-112513.png" alt="Captura-de-pantalla-2024-07-27-112513" border="0" /></a>
+<img src="https://i.ibb.co/yWQ3McH/Captura-de-pantalla-2024-07-27-112513.png" alt="Wasichay Constructora" style="width: 100%; height: auto;" />
 ## 🚀 Descripción del Proyecto
 
 Este proyecto es una página web creada con React que muestra los servicios, proyectos y el equipo de Wasichay Constructora. Nuestro objetivo es proporcionar una plataforma donde los clientes puedan conocer más sobre nosotros y nuestros trabajos.
