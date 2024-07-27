@@ -24,26 +24,29 @@ Este proyecto es una página web creada con React que muestra los servicios, pro
 
 ## 📦 Instalación
 
+
+```markdown
+## 📦 Instalación
+
 Sigue estos pasos para ejecutar el proyecto localmente:
 
 1. Clona el repositorio:
    ```bash
-   git clone https://github.com/tu-usuario/wasichay-constructora.git ```
-   
+   git clone https://github.com/tu-usuario/wasichay-constructora.git
+   ```
 2. Entra al proyecto:
    ```bash
    cd wasichay-constructora
- ```
-
-2. Instala las dependencias:
+   ```
+3. Instala las dependencias:
    ```bash
    npm install
- ```
-
-3. Ejecuta la aplicacion:
+   ```
+4. Ejecuta la aplicación:
    ```bash
-    npm start
- ```
+   npm start
+   ```
+```
 
 
    
